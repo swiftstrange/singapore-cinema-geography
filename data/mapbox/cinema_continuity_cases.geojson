@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-001",
+        "site_id": "SGC-S-011",
+        "site_address": "6001 Beach Road",
+        "operation_sequence": "Golden Theatre → The Projector at Golden Mile Tower → Filmhouse",
+        "documented_operations_per_site": 3,
+        "earliest_verified_opening_year": 1973,
+        "latest_verified_opening_year": 2026,
+        "operators": "Chong Gay Theatres; Pocket Projects; Filmhouse Pte. Ltd.",
+        "venue_type_sequence": "mixed_use_complex; mixed_use_complex; mixed_use_complex",
+        "continuity_note": "Primary continuity case: Filmhouse is a distinct new entity in The Projector's former Level 5 three-screen space and is not a rename. Golden Theatre was later subdivided across Levels 3 and 5, so continuity is spatial rather than a claim of an unchanged auditorium.",
+        "geocode_confidence": "high",
+        "case_priority": "primary",
+        "current_operation_present": "yes",
+        "source_ids": "SRC-001;SRC-045;SRC-046;SRC-047;SRC-048;SRC-061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-002",
+        "site_id": "SGC-S-003",
+        "site_address": "80 Eu Tong Sen Street",
+        "operation_sequence": "Queen's Theatre → Majestic Theatre",
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1938,
+        "latest_verified_opening_year": 1945,
+        "operators": "Shaw Brothers; Majestic Film Company",
+        "venue_type_sequence": "unknown; unknown",
+        "continuity_note": "Documented post-war rename/successor relationship at a retained theatre site.",
+        "geocode_confidence": "high",
+        "case_priority": "supporting",
+        "current_operation_present": "no",
+        "source_ids": "SRC-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843202,
+          1.284708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-003",
+        "site_id": "SGC-S-008",
+        "site_address": "100 Beach Road",
+        "operation_sequence": "Prince 1 and 2 → Jade 1 and 2 → Jade Classics",
+        "documented_operations_per_site": 3,
+        "earliest_verified_opening_year": 1988,
+        "latest_verified_opening_year": 1991,
+        "operators": "Shaw Organisation; Shaw Organisation; Shaw Organisation",
+        "venue_type_sequence": "mixed_use_complex; mixed_use_complex; mixed_use_complex",
+        "continuity_note": "Co-located Shaw cinema halls; Jade 2 later documented as Jade Classics rather than a full site replacement.",
+        "geocode_confidence": "high",
+        "case_priority": "supporting",
+        "current_operation_present": "no",
+        "source_ids": "SRC-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856776,
+          1.296531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-004",
+        "site_id": "SGC-S-009",
+        "site_address": "350 Orchard Road",
+        "operation_sequence": "Lido Cineplex → Shaw Theatres Lido (2011 reimagining)",
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1993,
+        "latest_verified_opening_year": 2011,
+        "operators": "Shaw Organisation; Shaw Theatres",
+        "venue_type_sequence": "mixed_use_complex; mixed_use_complex",
+        "continuity_note": "Rebuilt/reimagined operation at Shaw House; the 2011 configuration remains distinct from the 1993 cineplex.",
+        "geocode_confidence": "high",
+        "case_priority": "secondary",
+        "current_operation_present": "yes",
+        "source_ids": "SRC-020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.831647,
+          1.305741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-005",
+        "site_id": "SGC-S-012",
+        "site_address": "600 Lorong 4 Toa Payoh",
+        "operation_sequence": "Kong Chian Cinema → Central Cinema",
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1972,
+        "latest_verified_opening_year": 1987,
+        "operators": "unknown; Cathay Organisation",
+        "venue_type_sequence": "community/neighbourhood commercial centre; community/neighbourhood commercial centre",
+        "continuity_note": "Central reopened after Kong Chian; both represent the documented neighbourhood-commercial site.",
+        "geocode_confidence": "high",
+        "case_priority": "secondary",
+        "current_operation_present": "no",
+        "source_ids": "SRC-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850972,
+          1.333977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-006",
+        "site_id": "SGC-S-013",
+        "site_address": "450 Lorong 6 Toa Payoh",
+        "operation_sequence": "Toa Payoh Cinema → Toa Payoh Entertainment Centre",
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1972,
+        "latest_verified_opening_year": 1972,
+        "operators": "Eng Wah Organisation; Eng Wah Organisation",
+        "venue_type_sequence": "community/neighbourhood commercial centre; mixed_use_complex",
+        "continuity_note": "Later entertainment-centre reconfiguration; second operation opening year remains unresolved.",
+        "geocode_confidence": "high",
+        "case_priority": "supporting",
+        "current_operation_present": "no",
+        "source_ids": "SRC-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849386,
+          1.33168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "case_id": "CC-007",
+        "site_id": "SGC-S-033",
+        "site_address": "360 Balestier Road",
+        "operation_sequence": "Hoover Theatre → President Theatre",
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1960,
+        "latest_verified_opening_year": 1973,
+        "operators": "Shaw Organisation; Shaw Organisation",
+        "venue_type_sequence": "mixed_use_complex; mixed_use_complex",
+        "continuity_note": "Documented shared former-theatre site now occupied by Shaw Plaza; records should not be treated as a simple sequential replacement.",
+        "geocode_confidence": "high",
+        "case_priority": "supporting",
+        "current_operation_present": "no",
+        "source_ids": "SRC-036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851195,
+          1.324916
+        ]
+      }
+    }
+  ]
+}

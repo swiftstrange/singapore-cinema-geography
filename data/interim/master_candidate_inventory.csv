@@ -1,0 +1,142 @@
+candidate_id,source_row_id,reported_name,reported_location,reported_opening,reported_closing,reported_status,match_status,matched_operation_id,matched_site_id,identity_cluster,consolidation_notes
+CAND-001,BIB-001,Paris Cinematograph,Victoria Street,1904,,historical,already_verified,SGC-O-022,SGC-S-016,OP-022,Discovery-level record; no core-table change
+CAND-002,BIB-002,Jubilee Theatre,North Bridge Road,1929,1978,historical,already_verified,SGC-O-025,SGC-S-019,OP-025,Discovery-level record; no core-table change
+CAND-003,BIB-003,Capitol Theatre,Stamford Road,1930,,historical,already_verified,SGC-O-001,SGC-S-001,OP-001,Discovery-level record; no core-table change
+CAND-004,BIB-004,Cathay,Handy Road,1939,,historical,already_verified,SGC-O-002,SGC-S-002,OP-002,Discovery-level record; no core-table change
+CAND-005,BIB-005,Venus,Queenstown,1965,,historical,already_verified,SGC-O-006,SGC-S-005,OP-006,Discovery-level record; no core-table change
+CAND-006,BIB-006,Golden City,Queenstown,1965,,historical,already_verified,SGC-O-007,SGC-S-006,OP-007,Discovery-level record; no core-table change
+CAND-007,BIB-007,Toa Payoh cinema,Toa Payoh,1970s,,historical,possible_same_site_operation,SGC-O-018;SGC-O-019,SGC-S-013,OP-018_OP-019,Discovery-level record; no core-table change
+CAND-008,BIB-008,Jubilee Ang Mo Kio,Ang Mo Kio,1981,,historical,already_verified,SGC-O-033,SGC-S-027,OP-033,Discovery-level record; no core-table change
+CAND-009,BIB-009,Savoy,Jurong West,1978,,historical,already_verified,SGC-O-036,SGC-S-030,OP-036,Discovery-level record; no core-table change
+CAND-010,WIKI-001,Balestier,Balestier,1999,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-011,WIKI-002,Bugis+,Downtown Core,2023,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-012,WIKI-003,Capitol Theatre,Downtown Core,2015,,current,already_verified,SGC-O-001,SGC-S-001,OP-001,Discovery-level record; no core-table change
+CAND-013,WIKI-004,Causeway Point,Woodlands,2026,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-014,WIKI-005,Century Square,Tampines,2026,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-015,WIKI-006,Cineleisure,Orchard Road,2023,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-016,WIKI-007,City Square Mall,Kallang,2009,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-017,WIKI-008,Djitsun Bedok,Bedok,2018,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-018,WIKI-009,Downtown East,Pasir Ris,2025,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-019,WIKI-010,Funan,Downtown Core,2019,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-020,WIKI-011,Grand Great World City,River Valley,1999,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-021,WIKI-012,Golden Mile Tower,Kallang,2014,,current,possible_same_site_operation,SGC-O-015,SGC-S-011,OP-015,Discovery-level record; no core-table change
+CAND-022,WIKI-013,i12 Katong,Katong,2011,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-023,WIKI-014,Jem,Jurong East,2025,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-024,WIKI-015,Jewel Changi Airport,Changi,2019,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-025,WIKI-016,Junction 8,Bishan,1993,,current,already_verified,SGC-O-027,SGC-S-021,OP-027,Discovery-level record; no core-table change
+CAND-026,WIKI-017,Jurong Point,Jurong West,1995,,current,already_verified,SGC-O-029,SGC-S-023,OP-029,Discovery-level record; no core-table change
+CAND-027,WIKI-018,King Albert Park Mall,Bukit Timah,2018,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-028,WIKI-019,Lot One,Choa Chu Kang,1996,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-029,WIKI-020,Lido,Orchard Road,1993,,current,possible_same_site_operation,SGC-O-012;SGC-O-013,SGC-S-009,OP-012_OP-013,Discovery-level record; no core-table change
+CAND-030,WIKI-021,Nex,Serangoon,2010,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-031,WIKI-022,Oldham Theatre,Downtown Core,2019,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-032,WIKI-023,Paya Lebar Quarter,Paya Lebar,2019,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-033,WIKI-024,SingPost Centre,Paya Lebar,2017,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-034,WIKI-025,Suntec City,Downtown Core,2014,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-035,WIKI-026,Tampines Mall,Tampines,1996,,current,already_verified,SGC-O-030,SGC-S-024,OP-030,Discovery-level record; no core-table change
+CAND-036,WIKI-027,VivoCity,Telok Blangah,2006,,current,already_verified,SGC-O-031,SGC-S-025,OP-031,Discovery-level record; no core-table change
+CAND-037,WIKI-028,Waterway Point,Punggol,2016,,current,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-038,WIKI-029,Yishun 10,Yishun,1992,,current,already_verified,SGC-O-014,SGC-S-010,OP-014,Discovery-level record; no core-table change
+CAND-039,WIKI-030,321 Clementi,Clementi,2015,2025,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-040,WIKI-031,AMK Hub,Ang Mo Kio,2007,2024,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-041,WIKI-032,Ang Mo Kio,Ang Mo Kio,1980,1986,defunct,already_verified,SGC-O-032,SGC-S-026,OP-032,Discovery-level record; no core-table change
+CAND-042,WIKI-033,Arcadia,Bedok,,,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-043,WIKI-034,Bedok,Bedok,1982,2006,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-044,WIKI-035,Broadway,Ang Mo Kio,1981,2003,defunct,already_verified,SGC-O-020,SGC-S-014,OP-020,Discovery-level record; no core-table change
+CAND-045,WIKI-036,Bugis Junction,Downtown Core,1995,2016,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-046,WIKI-037,Cathay,Orchard Road,1939,2022,defunct,already_verified,SGC-O-002,SGC-S-002,OP-002,Discovery-level record; no core-table change
+CAND-047,WIKI-038,Central Toa Payoh,Toa Payoh,1972,1997,defunct,already_verified,SGC-O-017,SGC-S-012,OP-017,Discovery-level record; no core-table change
+CAND-048,WIKI-039,Central Mall,Clarke Quay,1997,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-049,WIKI-040,Changi,Bedok,1981,2000,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-050,WIKI-041,Chinatown,Outram,1990,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-051,WIKI-042,Ciros,Telok Blangah,1958,1986,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-052,WIKI-043,Clementi-Commonwealth,Clementi,1981,2000,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-053,WIKI-044,Da Dong Ya,Bukit Timah,1942,1946,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-054,WIKI-045,Dalit,Bukit Merah,1982,1995,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-055,WIKI-046,Diamond,Downtown Core,1947,1977,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-056,WIKI-047,Eastpoint,Bedok,1997,2002,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-057,WIKI-048,East Shore,Kallang,1982,2001,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-058,WIKI-049,Empress,Clementi,1981,2006,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-059,WIKI-050,Empire,Hougang,1916,,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-060,WIKI-051,Galaxy,Geylang,1930s,1980s,defunct,already_verified,SGC-O-026,SGC-S-020,OP-026,Discovery-level record; no core-table change
+CAND-061,WIKI-052,Galaxy/Gala,Bukit Timah,1978,1990s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-062,WIKI-053,Gay/Happy World Amusement Park,Kallang,1940s,1990s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-063,WIKI-054,Golden City,Queenstown,1965,1984,defunct,already_verified,SGC-O-007,SGC-S-006,OP-007,Discovery-level record; no core-table change
+CAND-064,WIKI-055,Golden Sultan,Downtown Core,1982,2003,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-065,WIKI-056,Hollywood,Geylang,1958,1995,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-066,WIKI-057,Imperial,Thomson,1970,1985,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-067,WIKI-058,Jade,Rochor,1976,2019,defunct,already_verified,SGC-O-010,SGC-S-008,OP-010,Discovery-level record; no core-table change
+CAND-068,WIKI-059,JCube,Jurong East,2012,2023,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-069,WIKI-060,Jubilee,Ang Mo Kio,1975,2010,defunct,possible_duplicate,SGC-O-025;SGC-O-033,SGC-S-019;SGC-S-027,OP-025_OP-033,Discovery-level record; no core-table change
+CAND-070,WIKI-061,Jurong,Jurong East,1994,2008,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-071,WIKI-062,Jurong Drive-in,Jurong East,1971,1985-09-30,defunct,already_verified,SGC-O-021,SGC-S-015,OP-021,Discovery-level record; no core-table change
+CAND-072,WIKI-063,Kallang,Kallang,1972,1982,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-073,WIKI-064,King's Theatre,Bukit Merah,1950s,1980s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-074,WIKI-065,Kok Wah,Hougang,1960s,1980s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-075,WIKI-066,Kreta Ayer People's Theatre,Outram,1969,1997,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-076,WIKI-067,Leisure Park Kallang,Kallang,2002,2025,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-077,WIKI-068,Liberty,Marine Parade,1980,1990,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-078,WIKI-069,Liwagu,Bedok,1982,1995,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-079,WIKI-070,Majestic,Outram,1928,1998,defunct,already_verified,SGC-O-004,SGC-S-003,OP-004,Discovery-level record; no core-table change
+CAND-080,WIKI-071,Mandarin,Kallang,1975,2000,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-081,WIKI-072,Marina,Downtown Core,1986,1998,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-082,WIKI-073,Marina Leisureplex,Downtown Core,1996,2014,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-083,WIKI-074,Marlborough,Rochor,1909,1960s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-084,WIKI-075,Mercury,Hougang,1960s,1980s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-085,WIKI-076,Metropole,Tanjong Pagar,1958,1986,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-086,WIKI-077,New City,Geylang,1960s,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-087,WIKI-078,New Town/New Crown,Ang Mo Kio,1982,2003,defunct,possible_same_site_operation,SGC-O-034;SGC-O-035,SGC-S-028;SGC-S-029,OP-034_OP-035,Discovery-level record; no core-table change
+CAND-088,WIKI-079,Ocean,Bedok,1960s,1986,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-089,WIKI-080,Odeon,Downtown Core,1953,1984,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-090,WIKI-081,Odeon-Katong,Geylang,1950s,1993,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-091,WIKI-082,Oriental,Outram,1990s,2000,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-092,WIKI-083,Palace/Paradise,Geylang,1965,1992,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-093,WIKI-084,Paramount,Serangoon,1958,1983,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-094,WIKI-085,Parkway Parade,Marine Parade,2017,2023,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-095,WIKI-086,Pavilion,Tampines,1993,1998,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-096,WIKI-087,Plaza,Kallang,1974,2009,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-097,WIKI-088,Plaza Singapura,Orchard Road,1998,2026,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-098,WIKI-089,Premiere,River Valley,1978,1982,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-099,WIKI-090,Prince,Rochor,1976,2008,defunct,already_verified,SGC-O-009,SGC-S-008,OP-009,Discovery-level record; no core-table change
+CAND-100,WIKI-091,Queens,Geylang,1932,1982,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-101,WIKI-092,Queenstown/Queensway,Queenstown,1977,1999,defunct,already_verified,SGC-O-008,SGC-S-007,OP-008,Discovery-level record; no core-table change
+CAND-102,WIKI-093,Regal,Bukit Merah,1979,1998,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-103,WIKI-094,Republic,Marine Parade,1982,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-104,WIKI-095,Rex,Little India,2009,2018,defunct,already_verified,SGC-O-005,SGC-S-004,OP-005,Discovery-level record; no core-table change
+CAND-105,WIKI-096,Riverside Point,River Valley,1996,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-106,WIKI-097,Roxy,Geylang,1931,1978,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-107,WIKI-098,Ruby,Novena,1958,1983,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-108,WIKI-099,S11 Dormitory Punggol,Punggol,2018,2023,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-109,WIKI-100,Savoy,Jurong West,1978,1998,defunct,already_verified,SGC-O-036,SGC-S-030,OP-036,Discovery-level record; no core-table change
+CAND-110,WIKI-101,Seletar Mall,Sengkang,2014,2024,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-111,WIKI-102,Singapura,Changi,1960s,1990s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-112,WIKI-103,Sin Wah,Bukit Panjang,,,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-113,WIKI-104,Straits,Woodlands,,,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-114,WIKI-105,Sun Plaza,Sembawang,2000,2009,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-115,WIKI-106,Taman Jurong,Jurong West,1970s,1990s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-116,WIKI-107,Tiong Bahru Plaza,Tiong Bahru,1994,2026,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-117,WIKI-108,Toa Payoh,Toa Payoh,1975,2010,defunct,possible_same_site_operation,SGC-O-018;SGC-O-019,SGC-S-013,OP-018_OP-019,Discovery-level record; no core-table change
+CAND-118,WIKI-109,Venus,Queenstown,1965,1985,defunct,already_verified,SGC-O-006,SGC-S-005,OP-006,Discovery-level record; no core-table change
+CAND-119,WIKI-110,Vision,Hougang,1993,2000,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-120,WIKI-111,West Mall,Bukit Batok,1998,2025,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-121,WIKI-112,White Sands,Pasir Ris,1997,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-122,WIKI-113,Woodlands,Woodlands,1981,1999,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-123,WIKI-114,Yangtze,Outram,1977,2016,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-124,WIKI-115,Yong Hua,Kovan,1960s,1980s,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-125,WIKI-116,Zenith,Hougang,1975,1984,defunct,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-126,WIKI-117,Great World Amusement Park,River Valley,1930s,1980s,transfer,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-127,WIKI-118,Hoover,Novena,1960,1996,transfer,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-128,WIKI-119,Lido,Orchard Road,1959,1990,transfer,possible_same_site_operation,SGC-O-012;SGC-O-013,SGC-S-009,OP-012_OP-013,Discovery-level record; no core-table change
+CAND-129,WIKI-120,New World Amusement Park,Whampoa,1920,1980s,transfer,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-130,WIKI-121,President,Novena,1973,1996,transfer,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-131,WIKI-122,Princess Raja,Bedok,1982,2008,transfer,needs_verification,,,unclustered,Discovery-level record; no core-table change
+CAND-132,OP-001,Golden Village Bishan,Bishan,,,current,already_verified,SGC-O-027,SGC-S-021,OP-027,Discovery-level record; no core-table change
+CAND-133,OP-002,Golden Village Jurong Point,Jurong West,,,current,already_verified,SGC-O-029,SGC-S-023,OP-029,Discovery-level record; no core-table change
+CAND-134,OP-003,Golden Village Tampines,Tampines,,,current,already_verified,SGC-O-030,SGC-S-024,OP-030,Discovery-level record; no core-table change
+CAND-135,OP-004,Golden Village VivoCity,Telok Blangah,,,current,already_verified,SGC-O-031,SGC-S-025,OP-031,Discovery-level record; no core-table change
+CAND-136,OP-005,Shaw Theatres Lido,Orchard Road,,,current,already_verified,SGC-O-013,SGC-S-009,OP-013,Discovery-level record; no core-table change
+CAND-137,ROOTS-001,Capitol Theatre,Downtown Core,1930,,historic,already_verified,SGC-O-001,SGC-S-001,OP-001,Discovery-level record; no core-table change
+CAND-138,ROOTS-002,Cathay Building,Downtown Core,1939,,historic,already_verified,SGC-O-002,SGC-S-002,OP-002,Discovery-level record; no core-table change
+CAND-139,ROOTS-003,Majestic Theatre,Chinatown,1928,,historic,already_verified,SGC-O-004,SGC-S-003,OP-004,Discovery-level record; no core-table change
+CAND-140,ROOTS-004,Rex Cinema,Little India,1930s,,historic,already_verified,SGC-O-005,SGC-S-004,OP-005,Discovery-level record; no core-table change
+CAND-141,ROOTS-005,Shaw Tower cinemas,Rochor,1970s,,historic,possible_same_site_operation,SGC-O-009;SGC-O-010;SGC-O-011,SGC-S-008,OP-009_OP-010_OP-011,Discovery-level record; no core-table change

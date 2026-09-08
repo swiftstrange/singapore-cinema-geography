@@ -1,0 +1,10 @@
+source_row_id,source_id,reported_name,reported_location,reported_address,reported_operator,reported_opening,reported_closing,reported_status,reported_screens,reported_seats,source_url_or_identifier,notes
+BIB-001,DISC-BIBLIO,Paris Cinematograph,Victoria Street,Malay Theatre,Paul Picard,1904,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Article identifies first enclosed cinema
+BIB-002,DISC-BIBLIO,Jubilee Theatre,North Bridge Road,,,1929,1978,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Article chronology
+BIB-003,DISC-BIBLIO,Capitol Theatre,Stamford Road,,,1930,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Article chronology
+BIB-004,DISC-BIBLIO,Cathay,Handy Road,,,1939,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Article chronology
+BIB-005,DISC-BIBLIO,Venus,Queenstown,,,1965,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Neighbourhood-cinema discussion
+BIB-006,DISC-BIBLIO,Golden City,Queenstown,,,1965,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,Neighbourhood-cinema discussion
+BIB-007,DISC-BIBLIO,Toa Payoh cinema,Toa Payoh,,,1970s,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,New-town cinema discussion
+BIB-008,DISC-BIBLIO,Jubilee Ang Mo Kio,Ang Mo Kio,,,1981,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,New-town cinema discussion
+BIB-009,DISC-BIBLIO,Savoy,Jurong West,,,1978,,historical,,,https://biblioasia.nlb.gov.sg/vol-21/issue-4/jan-mar-2026/singapore-cinemas/,New-town cinema discussion

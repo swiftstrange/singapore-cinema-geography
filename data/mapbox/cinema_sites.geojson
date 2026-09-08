@@ -1,0 +1,761 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-001",
+        "site_name": "1 Stamford Road",
+        "address": "17 Stamford Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1930,
+        "latest_verified_opening_year": 1930,
+        "operation_names_summary": "Capitol Theatre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-013;SRC-020",
+        "address_source_ids": "SRC-001;SRC-013;SRC-020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851214,
+          1.2935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-002",
+        "site_name": "Cathay Building",
+        "address": "2 Handy Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1939,
+        "latest_verified_opening_year": 1939,
+        "operation_names_summary": "Cathay Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-012;SRC-021",
+        "address_source_ids": "SRC-001;SRC-012;SRC-021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847857,
+          1.299399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-003",
+        "site_name": "Queen's Theatre",
+        "address": "80 Eu Tong Sen Street",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1938,
+        "latest_verified_opening_year": 1945,
+        "operation_names_summary": "Queen's Theatre; Majestic Theatre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Documented post-war rename/successor relationship at a retained theatre site.",
+        "site_source_ids": "SRC-002",
+        "address_source_ids": "SRC-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843202,
+          1.284708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-004",
+        "site_name": "Rex Cinema",
+        "address": "2 Mackenzie Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2009,
+        "latest_verified_opening_year": 2009,
+        "operation_names_summary": "Rex Cinemas",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-010",
+        "address_source_ids": "SRC-010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850057,
+          1.304857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-005",
+        "site_name": "Venus Theatre",
+        "address": "130 Margaret Drive",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1965,
+        "latest_verified_opening_year": 1965,
+        "operation_names_summary": "Venus Theatre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-003",
+        "address_source_ids": "SRC-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.803126,
+          1.298913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-006",
+        "site_name": "Golden City Theatre",
+        "address": "132 Margaret Drive",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1965,
+        "latest_verified_opening_year": 1965,
+        "operation_names_summary": "Golden City Theatre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-003",
+        "address_source_ids": "SRC-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.803685,
+          1.29904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-007",
+        "site_name": "Queenstown Cinema and Bowling Centre",
+        "address": "250 Commonwealth Avenue",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1977,
+        "latest_verified_opening_year": 1977,
+        "operation_names_summary": "Queenstown Cinema and Bowling Centre",
+        "current_operation_present": "no",
+        "geocode_confidence": "medium",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-014",
+        "address_source_ids": "SRC-001;SRC-014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.806318,
+          1.293933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-008",
+        "site_name": "Shaw Towers",
+        "address": "100 Beach Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 3,
+        "earliest_verified_opening_year": 1988,
+        "latest_verified_opening_year": 1991,
+        "operation_names_summary": "Prince 1 and 2; Jade 1 and 2; Jade Classics",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Co-located Shaw cinema halls; Jade 2 later documented as Jade Classics rather than a full site replacement.",
+        "site_source_ids": "SRC-005;SRC-016;SRC-022",
+        "address_source_ids": "SRC-005;SRC-016;SRC-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856776,
+          1.296531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-009",
+        "site_name": "Shaw House",
+        "address": "350 Orchard Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1993,
+        "latest_verified_opening_year": 2011,
+        "operation_names_summary": "Lido Cineplex; Shaw Theatres Lido (2011 reimagining)",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Rebuilt/reimagined operation at Shaw House; the 2011 configuration remains distinct from the 1993 cineplex.",
+        "site_source_ids": "SRC-006;SRC-008",
+        "address_source_ids": "SRC-006;SRC-008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.831647,
+          1.305741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-010",
+        "site_name": "Yishun 10",
+        "address": "1 Yishun Industrial Street 1",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1992,
+        "latest_verified_opening_year": 1992,
+        "operation_names_summary": "GV Yishun",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004",
+        "address_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.842167,
+          1.43737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-011",
+        "site_name": "Golden Theatre",
+        "address": "6001 Beach Road",
+        "historical_address": "6001 Beach Road",
+        "modern_geocoding_address": "6001 Beach Road Singapore 199589",
+        "documented_operations_per_site": 3,
+        "earliest_verified_opening_year": 1973,
+        "latest_verified_opening_year": 2026,
+        "operation_names_summary": "The Projector at Golden Mile Tower; Golden Theatre; Filmhouse",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Primary continuity case: Filmhouse is a distinct new entity in The Projector's former Level 5 three-screen space and is not a rename. Golden Theatre was later subdivided across Levels 3 and 5, so continuity is spatial rather than a claim of an unchanged auditorium.",
+        "site_source_ids": "SRC-009;SRC-045;SRC-046;SRC-047;SRC-048;SRC-054",
+        "address_source_ids": "SRC-045;SRC-046;SRC-047;SRC-048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-012",
+        "site_name": "Kong Chian Cinema",
+        "address": "600 Lorong 4 Toa Payoh",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1972,
+        "latest_verified_opening_year": 1987,
+        "operation_names_summary": "Kong Chian Cinema; Central Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Central reopened after Kong Chian; both represent the documented neighbourhood-commercial site.",
+        "site_source_ids": "SRC-023",
+        "address_source_ids": "SRC-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850972,
+          1.333977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-013",
+        "site_name": "Toa Payoh Cinema",
+        "address": "450 Lorong 6 Toa Payoh",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1972,
+        "latest_verified_opening_year": 1972,
+        "operation_names_summary": "Toa Payoh Cinema; Toa Payoh Entertainment Centre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Later entertainment-centre reconfiguration; second operation opening year remains unresolved.",
+        "site_source_ids": "SRC-024",
+        "address_source_ids": "SRC-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849386,
+          1.33168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-020",
+        "site_name": "Apollo Theatre",
+        "address": "Geylang Road",
+        "historical_address": "Geylang Road",
+        "modern_geocoding_address": "32 Onan Road Singapore 424484",
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1965,
+        "latest_verified_opening_year": 1965,
+        "operation_names_summary": "Galaxy Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-040",
+        "address_source_ids": "SRC-001;SRC-040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.896755,
+          1.315602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-021",
+        "site_name": "Golden Village Bishan",
+        "address": "9 Bishan Place",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1993,
+        "latest_verified_opening_year": 1993,
+        "operation_names_summary": "GV Bishan",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004;SRC-028",
+        "address_source_ids": "SRC-004;SRC-028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848729,
+          1.350506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-022",
+        "site_name": "Golden Village Tiong Bahru",
+        "address": "302 Tiong Bahru Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1994,
+        "latest_verified_opening_year": 1994,
+        "operation_names_summary": "GV Tiong Bahru",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004;SRC-029",
+        "address_source_ids": "SRC-004;SRC-029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82731,
+          1.286382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-023",
+        "site_name": "Golden Village Jurong Point",
+        "address": "1 Jurong West Central 1",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1995,
+        "latest_verified_opening_year": 1995,
+        "operation_names_summary": "GV Jurong Point",
+        "current_operation_present": "yes",
+        "geocode_confidence": "medium",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004",
+        "address_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70673489,
+          1.33996276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-024",
+        "site_name": "Golden Village Tampines",
+        "address": "4 Tampines Central 5",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1996,
+        "latest_verified_opening_year": 1996,
+        "operation_names_summary": "GV Tampines",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004;SRC-030",
+        "address_source_ids": "SRC-004;SRC-030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.944777,
+          1.352475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-025",
+        "site_name": "Golden Village VivoCity",
+        "address": "1 HarbourFront Walk",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2006,
+        "latest_verified_opening_year": 2006,
+        "operation_names_summary": "GV VivoCity",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-004",
+        "address_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.822189,
+          1.26432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-026",
+        "site_name": "Ang Mo Kio Cinema",
+        "address": "Ang Mo Kio Avenue 3",
+        "historical_address": "Ang Mo Kio Avenue 3",
+        "modern_geocoding_address": "51 Ang Mo Kio Avenue 3 Singapore 569922",
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1980,
+        "latest_verified_opening_year": 1980,
+        "operation_names_summary": "Ang Mo Kio Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-041;SRC-042",
+        "address_source_ids": "SRC-001;SRC-041;SRC-042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847187,
+          1.369356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-028",
+        "site_name": "New Crown Cinema",
+        "address": "Ang Mo Kio Town Centre",
+        "historical_address": "Ang Mo Kio Town Centre",
+        "modern_geocoding_address": "5 Ang Mo Kio Central 2 Singapore 569663",
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1980,
+        "latest_verified_opening_year": 1980,
+        "operation_names_summary": "New Crown Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "medium",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-043",
+        "address_source_ids": "SRC-001;SRC-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847625,
+          1.372857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-029",
+        "site_name": "New Town Cinema",
+        "address": "Ang Mo Kio Town Centre",
+        "historical_address": "Ang Mo Kio Town Centre",
+        "modern_geocoding_address": "5 Ang Mo Kio Central 2 Singapore 569663",
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1980,
+        "latest_verified_opening_year": 1980,
+        "operation_names_summary": "New Town Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "medium",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-043",
+        "address_source_ids": "SRC-001;SRC-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847625,
+          1.372857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-030",
+        "site_name": "Savoy Cinema",
+        "address": "90 Boon Lay Place",
+        "historical_address": "90 Boon Lay Place Singapore 649884",
+        "modern_geocoding_address": "90 Boon Lay Place Food Court Singapore 649884",
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 1978,
+        "latest_verified_opening_year": 1978,
+        "operation_names_summary": "Savoy Cinema",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-001;SRC-044",
+        "address_source_ids": "SRC-044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71206559,
+          1.34745533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-031",
+        "site_name": "AMK Hub",
+        "address": "53 Ang Mo Kio Avenue 3",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2007,
+        "latest_verified_opening_year": 2007,
+        "operation_names_summary": "Cathay Cineplexes AMK Hub",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-031",
+        "address_source_ids": "SRC-031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848474,
+          1.369342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-032",
+        "site_name": "Parkway Parade",
+        "address": "80 Marine Parade Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2017,
+        "latest_verified_opening_year": 2017,
+        "operation_names_summary": "Cathay Cineplex Parkway Parade",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-032",
+        "address_source_ids": "SRC-032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.905132,
+          1.301689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-033",
+        "site_name": "Hoover Theatre",
+        "address": "360 Balestier Road",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 2,
+        "earliest_verified_opening_year": 1960,
+        "latest_verified_opening_year": 1973,
+        "operation_names_summary": "Hoover Theatre; President Theatre",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "yes",
+        "continuity_note": "Documented shared former-theatre site now occupied by Shaw Plaza; records should not be treated as a simple sequential replacement.",
+        "site_source_ids": "SRC-033",
+        "address_source_ids": "SRC-033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851195,
+          1.324916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-034",
+        "site_name": "Shaw Theatres Waterway Point",
+        "address": "83 Punggol Central #B2-11",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2016,
+        "latest_verified_opening_year": 2016,
+        "operation_names_summary": "Shaw Theatres Waterway Point",
+        "current_operation_present": "yes",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-034",
+        "address_source_ids": "SRC-034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90216,
+          1.406209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "SGC-S-035",
+        "site_name": "Shaw Theatres JCube",
+        "address": "2 Jurong East Central 1",
+        "historical_address": null,
+        "modern_geocoding_address": null,
+        "documented_operations_per_site": 1,
+        "earliest_verified_opening_year": 2012,
+        "latest_verified_opening_year": 2012,
+        "operation_names_summary": "Shaw Theatres JCube",
+        "current_operation_present": "no",
+        "geocode_confidence": "high",
+        "continuity_case": "no",
+        "continuity_note": null,
+        "site_source_ids": "SRC-034;SRC-039",
+        "address_source_ids": "SRC-034;SRC-039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.740189,
+          1.333328
+        ]
+      }
+    }
+  ]
+}

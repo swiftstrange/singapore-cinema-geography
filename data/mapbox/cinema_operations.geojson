@@ -1,0 +1,1115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-001",
+        "site_id": "SGC-S-001",
+        "cinema_name": "Capitol Theatre",
+        "alternate_names": "Capitol Cinema",
+        "opening_year": 1930,
+        "opening_period": "1930–1949",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": null,
+        "venue_type": "other_or_unknown",
+        "venue_type_display": "Other / not classified",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "17 Stamford Road",
+        "operation_source_ids": "SRC-001;SRC-013;SRC-020",
+        "site_source_ids": "SRC-001;SRC-013;SRC-020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851214,
+          1.2935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-002",
+        "site_id": "SGC-S-002",
+        "cinema_name": "Cathay Cinema",
+        "alternate_names": "Cathay",
+        "opening_year": 1939,
+        "opening_period": "1930–1949",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Cathay Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "2 Handy Road",
+        "operation_source_ids": "SRC-001;SRC-012;SRC-015;SRC-021",
+        "site_source_ids": "SRC-001;SRC-012;SRC-021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847857,
+          1.299399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-003",
+        "site_id": "SGC-S-003",
+        "cinema_name": "Queen's Theatre",
+        "alternate_names": "Queen's; Tai Hwa Opera House",
+        "opening_year": 1938,
+        "opening_period": "1930–1949",
+        "closing_year": 1945,
+        "operation_status": "uncertain",
+        "operator": "Shaw Brothers",
+        "venue_type": "other_or_unknown",
+        "venue_type_display": "Other / not classified",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "80 Eu Tong Sen Street",
+        "operation_source_ids": "SRC-002",
+        "site_source_ids": "SRC-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843202,
+          1.284708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-004",
+        "site_id": "SGC-S-003",
+        "cinema_name": "Majestic Theatre",
+        "alternate_names": "The Majestic",
+        "opening_year": 1945,
+        "opening_period": "1930–1949",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Majestic Film Company",
+        "venue_type": "other_or_unknown",
+        "venue_type_display": "Other / not classified",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "80 Eu Tong Sen Street",
+        "operation_source_ids": "SRC-002",
+        "site_source_ids": "SRC-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843202,
+          1.284708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-005",
+        "site_id": "SGC-S-004",
+        "cinema_name": "Rex Cinemas",
+        "alternate_names": "Rex Cinema",
+        "opening_year": 2009,
+        "opening_period": "1990–2009",
+        "closing_year": 2018,
+        "operation_status": "closed",
+        "operator": "Carnival Cinemas",
+        "venue_type": "standalone_cinema",
+        "venue_type_display": "Standalone cinema",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "2 Mackenzie Road",
+        "operation_source_ids": "SRC-010",
+        "site_source_ids": "SRC-010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850057,
+          1.304857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-006",
+        "site_id": "SGC-S-005",
+        "cinema_name": "Venus Theatre",
+        "alternate_names": "Venus",
+        "opening_year": 1965,
+        "opening_period": "1950–1969",
+        "closing_year": 1984,
+        "operation_status": "closed",
+        "operator": "Kong Ngee Co. Ltd",
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "130 Margaret Drive",
+        "operation_source_ids": "SRC-003;SRC-017",
+        "site_source_ids": "SRC-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.803126,
+          1.298913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-007",
+        "site_id": "SGC-S-006",
+        "cinema_name": "Golden City Theatre",
+        "alternate_names": "Golden City",
+        "opening_year": 1965,
+        "opening_period": "1950–1969",
+        "closing_year": 1984,
+        "operation_status": "closed",
+        "operator": "Golden Star of Malaysia",
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "132 Margaret Drive",
+        "operation_source_ids": "SRC-003;SRC-017",
+        "site_source_ids": "SRC-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.803685,
+          1.29904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-008",
+        "site_id": "SGC-S-007",
+        "cinema_name": "Queenstown Cinema and Bowling Centre",
+        "alternate_names": "Queensway Cinema",
+        "opening_year": 1977,
+        "opening_period": "1970–1989",
+        "closing_year": 1999,
+        "operation_status": "closed",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "Queenstown",
+        "geocode_confidence": "medium",
+        "site_address": "250 Commonwealth Avenue",
+        "operation_source_ids": "SRC-001;SRC-014",
+        "site_source_ids": "SRC-001;SRC-014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.806318,
+          1.293933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-009",
+        "site_id": "SGC-S-008",
+        "cinema_name": "Prince 1 and 2",
+        "alternate_names": "Prince",
+        "opening_year": 1988,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "100 Beach Road",
+        "operation_source_ids": "SRC-005;SRC-016;SRC-022",
+        "site_source_ids": "SRC-005;SRC-016;SRC-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856776,
+          1.296531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-010",
+        "site_id": "SGC-S-008",
+        "cinema_name": "Jade 1 and 2",
+        "alternate_names": "Jade",
+        "opening_year": 1988,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "100 Beach Road",
+        "operation_source_ids": "SRC-005;SRC-016;SRC-022",
+        "site_source_ids": "SRC-005;SRC-016;SRC-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856776,
+          1.296531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-011",
+        "site_id": "SGC-S-008",
+        "cinema_name": "Jade Classics",
+        "alternate_names": "Jade 2",
+        "opening_year": 1991,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "100 Beach Road",
+        "operation_source_ids": "SRC-005;SRC-016;SRC-022",
+        "site_source_ids": "SRC-005;SRC-016;SRC-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856776,
+          1.296531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-012",
+        "site_id": "SGC-S-009",
+        "cinema_name": "Lido Cineplex",
+        "alternate_names": "Lido",
+        "opening_year": 1993,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "yes",
+        "mall_name": "Shaw House",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "350 Orchard Road",
+        "operation_source_ids": "SRC-006",
+        "site_source_ids": "SRC-006;SRC-008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.831647,
+          1.305741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-013",
+        "site_id": "SGC-S-009",
+        "cinema_name": "Shaw Theatres Lido (2011 reimagining)",
+        "alternate_names": "Lido IMAX",
+        "opening_year": 2011,
+        "opening_period": "2010–present",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Shaw Theatres",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "yes",
+        "mall_name": "Shaw House",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "350 Orchard Road",
+        "operation_source_ids": "SRC-007;SRC-008",
+        "site_source_ids": "SRC-006;SRC-008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.831647,
+          1.305741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-014",
+        "site_id": "SGC-S-010",
+        "cinema_name": "GV Yishun",
+        "alternate_names": "Yishun 10",
+        "opening_year": 1992,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Golden Village",
+        "venue_type": "other_or_unknown",
+        "venue_type_display": "Other / not classified",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "1 Yishun Industrial Street 1",
+        "operation_source_ids": "SRC-004;SRC-018",
+        "site_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.842167,
+          1.43737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-015",
+        "site_id": "SGC-S-011",
+        "cinema_name": "The Projector at Golden Mile Tower",
+        "alternate_names": "The Projector",
+        "opening_year": 2014,
+        "opening_period": "2010–present",
+        "closing_year": 2025,
+        "operation_status": "closed",
+        "operator": "Pocket Projects",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": "Golden Mile Tower",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "6001 Beach Road",
+        "operation_source_ids": "SRC-001;SRC-009;SRC-019;SRC-047;SRC-048;SRC-062",
+        "site_source_ids": "SRC-009;SRC-045;SRC-046;SRC-047;SRC-048;SRC-054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-043",
+        "site_id": "SGC-S-011",
+        "cinema_name": "Golden Theatre",
+        "alternate_names": "Golden Cinema; Golden 1; Golden 2; Golden Studio",
+        "opening_year": 1973,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "closed",
+        "operator": "Chong Gay Theatres",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "6001 Beach Road",
+        "operation_source_ids": "SRC-047;SRC-048;SRC-061",
+        "site_source_ids": "SRC-009;SRC-045;SRC-046;SRC-047;SRC-048;SRC-054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-044",
+        "site_id": "SGC-S-011",
+        "cinema_name": "Filmhouse",
+        "alternate_names": "Filmhouse Cinemas",
+        "opening_year": 2026,
+        "opening_period": "2010–present",
+        "closing_year": null,
+        "operation_status": "open",
+        "operator": "Filmhouse Pte. Ltd.",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": "Golden Mile Tower",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "6001 Beach Road",
+        "operation_source_ids": "SRC-045;SRC-046;SRC-048",
+        "site_source_ids": "SRC-009;SRC-045;SRC-046;SRC-047;SRC-048;SRC-054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-016",
+        "site_id": "SGC-S-012",
+        "cinema_name": "Kong Chian Cinema",
+        "alternate_names": "Kong Chian",
+        "opening_year": 1972,
+        "opening_period": "1970–1989",
+        "closing_year": 1987,
+        "operation_status": "closed",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "Toa Payoh",
+        "geocode_confidence": "high",
+        "site_address": "600 Lorong 4 Toa Payoh",
+        "operation_source_ids": "SRC-023",
+        "site_source_ids": "SRC-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850972,
+          1.333977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-017",
+        "site_id": "SGC-S-012",
+        "cinema_name": "Central Cinema",
+        "alternate_names": "Central",
+        "opening_year": 1987,
+        "opening_period": "1970–1989",
+        "closing_year": 1997,
+        "operation_status": "closed",
+        "operator": "Cathay Organisation",
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "Toa Payoh",
+        "geocode_confidence": "high",
+        "site_address": "600 Lorong 4 Toa Payoh",
+        "operation_source_ids": "SRC-023",
+        "site_source_ids": "SRC-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850972,
+          1.333977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-018",
+        "site_id": "SGC-S-013",
+        "cinema_name": "Toa Payoh Cinema",
+        "alternate_names": "Toa Payoh Theatre",
+        "opening_year": 1972,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Eng Wah Organisation",
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "Toa Payoh",
+        "geocode_confidence": "high",
+        "site_address": "450 Lorong 6 Toa Payoh",
+        "operation_source_ids": "SRC-024",
+        "site_source_ids": "SRC-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849386,
+          1.33168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-019",
+        "site_id": "SGC-S-013",
+        "cinema_name": "Toa Payoh Entertainment Centre",
+        "alternate_names": "Toa Payoh Cinema",
+        "opening_year": null,
+        "opening_period": "unknown",
+        "closing_year": 2010,
+        "operation_status": "closed",
+        "operator": "Eng Wah Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "Toa Payoh",
+        "geocode_confidence": "high",
+        "site_address": "450 Lorong 6 Toa Payoh",
+        "operation_source_ids": "SRC-024",
+        "site_source_ids": "SRC-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.849386,
+          1.33168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-026",
+        "site_id": "SGC-S-020",
+        "cinema_name": "Galaxy Cinema",
+        "alternate_names": "Apollo Theatre; Garrick Theatre",
+        "opening_year": 1965,
+        "opening_period": "1950–1969",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Lim family",
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "Geylang Road",
+        "operation_source_ids": "SRC-001",
+        "site_source_ids": "SRC-001;SRC-040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.896755,
+          1.315602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-027",
+        "site_id": "SGC-S-021",
+        "cinema_name": "GV Bishan",
+        "alternate_names": "Junction 8",
+        "opening_year": 1993,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Golden Village",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Junction 8",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "9 Bishan Place",
+        "operation_source_ids": "SRC-004;SRC-028",
+        "site_source_ids": "SRC-004;SRC-028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848729,
+          1.350506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-028",
+        "site_id": "SGC-S-022",
+        "cinema_name": "GV Tiong Bahru",
+        "alternate_names": "Tiong Bahru Plaza",
+        "opening_year": 1994,
+        "opening_period": "1990–2009",
+        "closing_year": 2026,
+        "operation_status": "closed",
+        "operator": "Golden Village",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Tiong Bahru Plaza",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "302 Tiong Bahru Road",
+        "operation_source_ids": "SRC-004;SRC-029",
+        "site_source_ids": "SRC-004;SRC-029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82731,
+          1.286382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-029",
+        "site_id": "SGC-S-023",
+        "cinema_name": "GV Jurong Point",
+        "alternate_names": "Jurong Point",
+        "opening_year": 1995,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Golden Village",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Jurong Point",
+        "new_town_focus": "none",
+        "geocode_confidence": "medium",
+        "site_address": "1 Jurong West Central 1",
+        "operation_source_ids": "SRC-004",
+        "site_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.70673489,
+          1.33996276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-030",
+        "site_id": "SGC-S-024",
+        "cinema_name": "GV Tampines",
+        "alternate_names": "Tampines Mall",
+        "opening_year": 1996,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Golden Village",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Tampines Mall",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "4 Tampines Central 5",
+        "operation_source_ids": "SRC-004;SRC-030",
+        "site_source_ids": "SRC-004;SRC-030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.944777,
+          1.352475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-031",
+        "site_id": "SGC-S-025",
+        "cinema_name": "GV VivoCity",
+        "alternate_names": "VivoCity",
+        "opening_year": 2006,
+        "opening_period": "1990–2009",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Golden Village",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "VivoCity",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "1 HarbourFront Walk",
+        "operation_source_ids": "SRC-004",
+        "site_source_ids": "SRC-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.822189,
+          1.26432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-032",
+        "site_id": "SGC-S-026",
+        "cinema_name": "Ang Mo Kio Cinema",
+        "alternate_names": "Ang Mo Kio Cinema",
+        "opening_year": 1980,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "Ang Mo Kio",
+        "geocode_confidence": "high",
+        "site_address": "Ang Mo Kio Avenue 3",
+        "operation_source_ids": "SRC-001;SRC-025",
+        "site_source_ids": "SRC-001;SRC-041;SRC-042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847187,
+          1.369356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-034",
+        "site_id": "SGC-S-028",
+        "cinema_name": "New Crown Cinema",
+        "alternate_names": "New Crown",
+        "opening_year": 1980,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "Ang Mo Kio",
+        "geocode_confidence": "medium",
+        "site_address": "Ang Mo Kio Town Centre",
+        "operation_source_ids": "SRC-001;SRC-025",
+        "site_source_ids": "SRC-001;SRC-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847625,
+          1.372857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-035",
+        "site_id": "SGC-S-029",
+        "cinema_name": "New Town Cinema",
+        "alternate_names": "New Town",
+        "opening_year": 1980,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "Ang Mo Kio",
+        "geocode_confidence": "medium",
+        "site_address": "Ang Mo Kio Town Centre",
+        "operation_source_ids": "SRC-001;SRC-025",
+        "site_source_ids": "SRC-001;SRC-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.847625,
+          1.372857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-036",
+        "site_id": "SGC-S-030",
+        "cinema_name": "Savoy Cinema",
+        "alternate_names": "Savoy",
+        "opening_year": 1978,
+        "opening_period": "1970–1989",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": null,
+        "venue_type": "community_new_town_commercial_centre",
+        "venue_type_display": "Community / new-town commercial centre",
+        "mall_based": "unknown",
+        "mall_name": null,
+        "new_town_focus": "Boon Lay",
+        "geocode_confidence": "high",
+        "site_address": "90 Boon Lay Place",
+        "operation_source_ids": "SRC-001",
+        "site_source_ids": "SRC-001;SRC-044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.71206559,
+          1.34745533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-037",
+        "site_id": "SGC-S-031",
+        "cinema_name": "Cathay Cineplexes AMK Hub",
+        "alternate_names": "Cathay Cineplex AMK Hub",
+        "opening_year": 2007,
+        "opening_period": "1990–2009",
+        "closing_year": 2024,
+        "operation_status": "closed",
+        "operator": "Cathay Cineplexes",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "AMK Hub",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "53 Ang Mo Kio Avenue 3",
+        "operation_source_ids": "SRC-031",
+        "site_source_ids": "SRC-031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848474,
+          1.369342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-038",
+        "site_id": "SGC-S-032",
+        "cinema_name": "Cathay Cineplex Parkway Parade",
+        "alternate_names": "Cathay Cineplex at Parkway Parade",
+        "opening_year": 2017,
+        "opening_period": "2010–present",
+        "closing_year": 2023,
+        "operation_status": "closed",
+        "operator": "Cathay Cineplexes",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Parkway Parade",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "80 Marine Parade Road",
+        "operation_source_ids": "SRC-032",
+        "site_source_ids": "SRC-032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.905132,
+          1.301689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-039",
+        "site_id": "SGC-S-033",
+        "cinema_name": "Hoover Theatre",
+        "alternate_names": "New Hoover Cinema",
+        "opening_year": 1960,
+        "opening_period": "1950–1969",
+        "closing_year": 1996,
+        "operation_status": "closed",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "360 Balestier Road",
+        "operation_source_ids": "SRC-033",
+        "site_source_ids": "SRC-033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851195,
+          1.324916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-040",
+        "site_id": "SGC-S-033",
+        "cinema_name": "President Theatre",
+        "alternate_names": "President",
+        "opening_year": 1973,
+        "opening_period": "1970–1989",
+        "closing_year": 1996,
+        "operation_status": "closed",
+        "operator": "Shaw Organisation",
+        "venue_type": "mixed_use_cinema_complex",
+        "venue_type_display": "Mixed-use cinema complex",
+        "mall_based": "no",
+        "mall_name": null,
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "360 Balestier Road",
+        "operation_source_ids": "SRC-033",
+        "site_source_ids": "SRC-033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851195,
+          1.324916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-041",
+        "site_id": "SGC-S-034",
+        "cinema_name": "Shaw Theatres Waterway Point",
+        "alternate_names": "Waterway Point",
+        "opening_year": 2016,
+        "opening_period": "2010–present",
+        "closing_year": null,
+        "operation_status": "current",
+        "operator": "Shaw Theatres",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "Waterway Point",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "83 Punggol Central #B2-11",
+        "operation_source_ids": "SRC-034",
+        "site_source_ids": "SRC-034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90216,
+          1.406209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "operation_id": "SGC-O-042",
+        "site_id": "SGC-S-035",
+        "cinema_name": "Shaw Theatres JCube",
+        "alternate_names": "JCube",
+        "opening_year": 2012,
+        "opening_period": "2010–present",
+        "closing_year": null,
+        "operation_status": "uncertain",
+        "operator": "Shaw Theatres",
+        "venue_type": "mall_integrated_cinema",
+        "venue_type_display": "Mall-integrated cinema",
+        "mall_based": "yes",
+        "mall_name": "JCube",
+        "new_town_focus": "none",
+        "geocode_confidence": "high",
+        "site_address": "2 Jurong East Central 1",
+        "operation_source_ids": "SRC-034;SRC-039",
+        "site_source_ids": "SRC-034;SRC-039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.740189,
+          1.333328
+        ]
+      }
+    }
+  ]
+}

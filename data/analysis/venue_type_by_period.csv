@@ -1,0 +1,15 @@
+opening_period,venue_type,operations_high,operations_medium,operations_total
+1930–1949,mixed_use_complex,1,0,1
+1930–1949,other,1,0,1
+1930–1949,unknown,2,0,2
+1950–1969,community/neighbourhood commercial centre,3,0,3
+1950–1969,mixed_use_complex,1,0,1
+1970–1989,community/neighbourhood commercial centre,5,3,8
+1970–1989,mixed_use_complex,3,0,3
+1990–2009,standalone,1,0,1
+1990–2009,mixed_use_complex,2,0,2
+1990–2009,mall_integrated,5,1,6
+1990–2009,unknown,1,0,1
+2010–present,mixed_use_complex,2,0,2
+2010–present,mall_integrated,3,0,3
+Unknown opening year,mixed_use_complex,1,0,1

@@ -1,0 +1,6 @@
+source_row_id,source_id,reported_name,reported_location,reported_address,reported_operator,reported_opening,reported_closing,reported_status,reported_screens,reported_seats,source_url_or_identifier,notes
+OP-001,DISC-OPERATOR,Golden Village Bishan,Bishan,9 Bishan Place,Golden Village,,,current,,,https://www.gv.com.sg/,Official current-operator location listing
+OP-002,DISC-OPERATOR,Golden Village Jurong Point,Jurong West,1 Jurong West Central 1,Golden Village,,,current,,,https://www.gv.com.sg/,Official current-operator location listing
+OP-003,DISC-OPERATOR,Golden Village Tampines,Tampines,4 Tampines Central 5,Golden Village,,,current,,,https://www.gv.com.sg/,Official current-operator location listing
+OP-004,DISC-OPERATOR,Golden Village VivoCity,Telok Blangah,1 HarbourFront Walk,Golden Village,,,current,,,https://www.gv.com.sg/,Official current-operator location listing
+OP-005,DISC-OPERATOR,Shaw Theatres Lido,Orchard Road,350 Orchard Road,Shaw Theatres,,,current,,,https://shaw.sg/,Official current-operator location listing

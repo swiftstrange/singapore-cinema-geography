@@ -1,0 +1,1127 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-001",
+        "name": "Golden Village Bedok",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "445 Bedok North Street 1, #04-01, Djitsun Mall Bedok, Singapore",
+        "postal_code": "469661",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Djitsun Mall Bedok",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "445 Bedok North Street 1, Bedok, Singapore 469661",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Bedok; exact address returned by Mapbox."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.929558,
+          1.326128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-002",
+        "name": "Golden Village Bishan",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "9 Bishan Place, Junction 8, Singapore",
+        "postal_code": "579837",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Junction 8",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "9 Bishan Place, Bishan, Singapore 579837",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Bishan; exact address returned by Mapbox."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848729,
+          1.350506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-003",
+        "name": "Golden Village Bugis+",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "201 Victoria Street, Bugis+, #05-01, Singapore",
+        "postal_code": "188067",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Bugis+",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "201 Victoria Street, Rochor, Singapore 188067",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Bugis; exact address returned by Mapbox."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.854252,
+          1.299529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-004",
+        "name": "Golden Village Century Square",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "2 Tampines Central 5, Century Square, Singapore",
+        "postal_code": "529509",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Century Square",
+        "source_primary": "SRC-049;SRC-059",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "2 Tampines Central 5, Tampines, Singapore 529509",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Cinema Online records 10 February 2026 opening; GV current-location table lists Century Square."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.943842,
+          1.352381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-005",
+        "name": "Golden Village Cineleisure",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "8 Grange Road, Cineleisure Orchard, Singapore",
+        "postal_code": "239695",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex; Hall 6 is separately operated as SFS Somerset",
+        "site_or_building_note": "Cineleisure Orchard",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding; SRC-051",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "8 Grange Road, Orchard, Singapore 239695",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Co-located building with SFS Somerset but different auditorium and operator."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.836415,
+          1.301459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-006",
+        "name": "Golden Village City Square",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "180 Kitchener Road, City Square Mall, Singapore",
+        "postal_code": "208539",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "City Square Mall",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "180 Kitchener Road, Kallang, Singapore 208539",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names City Square."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.856497,
+          1.311305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-007",
+        "name": "Golden Village Downtown East",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "1 Pasir Ris Close, Downtown East, Singapore",
+        "postal_code": "519599",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Downtown East",
+        "source_primary": "SRC-049;SRC-059",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "medium",
+        "map_include": "yes",
+        "mapbox_returned_address": "Downtown East 1 Pasir Ris Close, Singapore 519599",
+        "mapbox_match_type": "building POI",
+        "geocode_mismatch_note": null,
+        "notes": "Cinema Online records 27 November 2025 opening; Mapbox returned a POI within the verified building rather than a rooftop address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.954684,
+          1.376968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-008",
+        "name": "Golden Village Funan",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "107 North Bridge Road, Funan, Singapore",
+        "postal_code": "179105",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Funan",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "107 North Bridge Road, Downtown Core, Singapore 179105",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Funan."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.850084,
+          1.291387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-009",
+        "name": "Golden Village Grand",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "1 Kim Seng Promenade, Great World, Singapore",
+        "postal_code": "237994",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex with premium halls",
+        "site_or_building_note": "Great World",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Kim Seng Promenade, Singapore Riverside, Singapore 237994",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV table calls this Great World City; inventory uses current GV Grand branding."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.832016,
+          1.293454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-010",
+        "name": "Golden Village Jurong Point",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "1 Jurong West Central 2, Jurong Point, Singapore",
+        "postal_code": "648886",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Jurong Point",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "medium",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Jurong West Central 2, Singapore 648886",
+        "mapbox_match_type": "building POI",
+        "geocode_mismatch_note": null,
+        "notes": "Mapbox returned Jurong Point POI at the exact verified building address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.706654,
+          1.339809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-011",
+        "name": "Golden Village Katong",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "112 East Coast Road, 112 Katong, Singapore",
+        "postal_code": "428802",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex with premium halls",
+        "site_or_building_note": "112 Katong",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "112 East Coast Road, Marine Parade, Singapore 428802",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Katong."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.905005,
+          1.305272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-012",
+        "name": "Golden Village Paya Lebar",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "10 Eunos Road 8, Singapore Post Centre, Singapore",
+        "postal_code": "408600",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Singapore Post Centre",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "10 Eunos Road 8, Geylang, Singapore 408600",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Paya Lebar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.894623,
+          1.318919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-013",
+        "name": "Golden Village Suntec City",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "3 Temasek Boulevard, Suntec City, Singapore",
+        "postal_code": "038983",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Suntec City",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "3 Temasek Boulevard, Downtown Core, Singapore 038983",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Suntec."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.860047,
+          1.295037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-014",
+        "name": "Golden Village Tampines",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "4 Tampines Central 5, Tampines Mall, Singapore",
+        "postal_code": "529510",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Tampines Mall",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "4 Tampines Central 5, Tampines, Singapore 529510",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Tampines."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.944777,
+          1.352475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-015",
+        "name": "Golden Village VivoCity",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "1 HarbourFront Walk, VivoCity, Singapore",
+        "postal_code": "098585",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex with premium halls",
+        "site_or_building_note": "VivoCity",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Harbourfront Walk, Bukit Merah, Singapore 098585",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names VivoCity."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.822189,
+          1.26432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-016",
+        "name": "Golden Village Yishun",
+        "operator_or_institution": "Golden Village",
+        "category": "commercial",
+        "address": "51 Yishun Central 1, Singapore",
+        "postal_code": "768794",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Yishun Central",
+        "source_primary": "SRC-049",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "51 Yishun Central 1, Yishun, Singapore 768794",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official GV current-location table names Yishun."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.83636,
+          1.429925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-017",
+        "name": "Shaw Theatres Lido",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "350 Orchard Road, Shaw House, Singapore",
+        "postal_code": "238868",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Shaw House",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "350 Orchard Road, Orchard, Singapore 238868",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.831647,
+          1.305741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-018",
+        "name": "Shaw Theatres Jem",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "50 Jurong Gateway Road, JEM, #05-04, Singapore",
+        "postal_code": "608549",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "JEM",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "50 Jurong Gateway Road, Jurong East, Singapore 608549",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.743397,
+          1.333343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-019",
+        "name": "Shaw Theatres Jewel",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "78 Airport Boulevard, Jewel Changi Airport, #B2-237, Singapore",
+        "postal_code": "819666",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Jewel Changi Airport",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "78 Airport Boulevard, Changi, Singapore 819666",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.989831,
+          1.360112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-020",
+        "name": "Shaw Theatres Paya Lebar Quarter",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "10 Paya Lebar Road, PLQ Mall, #05-02, Singapore",
+        "postal_code": "409057",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "PLQ Mall",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "10 Paya Lebar Road, Geylang, Singapore 409057",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.892884,
+          1.317616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-021",
+        "name": "Shaw Theatres Balestier",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "360 Balestier Road, Shaw Plaza, #04-04, Singapore",
+        "postal_code": "329783",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Shaw Plaza",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "medium",
+        "map_include": "yes",
+        "mapbox_returned_address": "360 Balestier Road, Novena, Singapore 329780",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": "Postal code differs: official Shaw page 329783 versus Mapbox 329780; street number and building context agree.",
+        "notes": "Retained as a medium-confidence coordinate pending postal-code clarification."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851195,
+          1.324916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-022",
+        "name": "Shaw Theatres Waterway Point",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "83 Punggol Central, Waterway Point, #B2-11, Singapore",
+        "postal_code": "828761",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Waterway Point",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "medium",
+        "map_include": "yes",
+        "mapbox_returned_address": "83 Punggol Central, Punggol, Singapore 828758",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": "Postal code differs: official Shaw page 828761 versus Mapbox 828758; street number and building context agree.",
+        "notes": "Retained as a medium-confidence coordinate pending postal-code clarification."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90216,
+          1.406209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-023",
+        "name": "Shaw Theatres nex",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "23 Serangoon Central, nex, #04-64, Singapore",
+        "postal_code": "556083",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and premium cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "nex",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "23 Serangoon Central, Serangoon, Singapore 556083",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.872578,
+          1.350534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-024",
+        "name": "Shaw Theatres Lot One",
+        "operator_or_institution": "Shaw Theatres",
+        "category": "commercial",
+        "address": "21 Choa Chu Kang Avenue 4, Lot 1 Shoppers' Mall, Singapore",
+        "postal_code": "689812",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream and event cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Lot 1 Shoppers' Mall",
+        "source_primary": "SRC-050",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "21 Choa Chu Kang Avenue 4, Choa Chu Kang, Singapore 689812",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official Shaw venue list gives address and current operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.745057,
+          1.385095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-025",
+        "name": "Carnival Cinemas Golden Mile",
+        "operator_or_institution": "Carnival Cinemas",
+        "category": "commercial",
+        "address": "6001 Beach Road, #03-00, Golden Mile Tower, Singapore",
+        "postal_code": "199589",
+        "current_status": "active_limited",
+        "screening_pattern": "regular commercial schedule with limited booking reliability",
+        "programme_type": "Indian and regional commercial cinema",
+        "commercial_or_curated_note": "Commercial cinema with South Asian programming",
+        "site_or_building_note": "Golden Mile Tower Level 3",
+        "source_primary": "SRC-054",
+        "source_secondary": "SRC-048;SRC-059; Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "6001 Beach Road, Downtown Core, Singapore 199589",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Co-located in Golden Mile Tower with Filmhouse but a separate Level 3 cinema operation."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-026",
+        "name": "EagleWings Cinematics",
+        "operator_or_institution": "EagleWings Cinematics",
+        "category": "commercial",
+        "address": "9 King Albert Park, #01-58, KAP Residences Mall, Singapore",
+        "postal_code": "598332",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream local and faith-based films",
+        "commercial_or_curated_note": "Boutique commercial cinema",
+        "site_or_building_note": "KAP Residences Mall",
+        "source_primary": "SRC-052",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "medium",
+        "map_include": "yes",
+        "mapbox_returned_address": "Nekoya King Albert Park, 9 King Albert Park, Singapore 598332",
+        "mapbox_match_type": "building POI",
+        "geocode_mismatch_note": "Mapbox returned another tenant POI within the verified KAP building rather than EagleWings itself.",
+        "notes": "Official operator page confirms venue and active showtimes; coordinate retained at building level."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.779587,
+          1.336709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-027",
+        "name": "MY Cinemas Causeway Point",
+        "operator_or_institution": "MY Cinemas",
+        "category": "commercial",
+        "address": "1 Woodlands Square, Level 7, Causeway Point, Singapore",
+        "postal_code": "738099",
+        "current_status": "active",
+        "screening_pattern": "daily commercial schedule",
+        "programme_type": "mainstream multilingual and South Asian cinema",
+        "commercial_or_curated_note": "Commercial multiplex",
+        "site_or_building_note": "Causeway Point",
+        "source_primary": "SRC-053",
+        "source_secondary": "SRC-059; Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Woodlands Square, Woodlands, Singapore 738099",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Official MY ticketing page shows current multi-hall programme; current location corroborated by Causeway Point directory and Mapbox."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.785893,
+          1.436128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-028",
+        "name": "Filmhouse",
+        "operator_or_institution": "Filmhouse Pte. Ltd.",
+        "category": "independent_curated",
+        "address": "6001 Beach Road, #05-00, Golden Mile Tower, Singapore",
+        "postal_code": "199589",
+        "current_status": "active",
+        "screening_pattern": "scheduled Tue-Sun with current daily listings",
+        "programme_type": "independent films restorations festivals and cultural events",
+        "commercial_or_curated_note": "Independent curated cinema and community venue",
+        "site_or_building_note": "Golden Mile Tower Level 5; former Projector space",
+        "source_primary": "SRC-045",
+        "source_secondary": "SRC-046; Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "6001 Beach Road, Downtown Core, Singapore 199589",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Co-located with the historical Golden Theatre/Projector site and Carnival; Filmhouse is separately owned and managed."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.864161,
+          1.301929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-029",
+        "name": "SFS Somerset",
+        "operator_or_institution": "Singapore Film Society",
+        "category": "independent_curated",
+        "address": "8 Grange Road, Hall 6, GV Cineleisure, Singapore",
+        "postal_code": "239695",
+        "current_status": "active",
+        "screening_pattern": "permanent weekly curated programme",
+        "programme_type": "independent Singapore and festival cinema",
+        "commercial_or_curated_note": "Non-profit curated cinema",
+        "site_or_building_note": "Cineleisure Orchard Hall 6",
+        "source_primary": "SRC-051",
+        "source_secondary": "SRC-049; Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "8 Grange Road, Orchard, Singapore 239695",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Co-located with GV Cineleisure but operates the distinct former Projector Hall 6."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.836415,
+          1.301459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-030",
+        "name": "Capitol Theatre",
+        "operator_or_institution": "Capitol Singapore",
+        "category": "heritage_hybrid",
+        "address": "17 Stamford Road, Capitol Singapore, Singapore",
+        "postal_code": "178907",
+        "current_status": "active_limited",
+        "screening_pattern": "limited public film screenings alongside performances",
+        "programme_type": "multi-purpose heritage theatre with film screenings",
+        "commercial_or_curated_note": "Heritage theatre hybrid",
+        "site_or_building_note": "Capitol Singapore",
+        "source_primary": "SRC-058",
+        "source_secondary": "SRC-059; Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "17 Stamford Road, Downtown Core, Singapore 178907",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Co-located with historic Capitol cinema site SGC-S-001; historic 1 Stamford Road and current 17 Stamford Road are not conflated."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.851214,
+          1.2935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-031",
+        "name": "Oldham Theatre",
+        "operator_or_institution": "Asian Film Archive",
+        "category": "institutional_curated",
+        "address": "1 Canning Rise, Level 3, National Archives of Singapore, Singapore",
+        "postal_code": "179868",
+        "current_status": "active",
+        "screening_pattern": "regular public curated programme",
+        "programme_type": "Asian film heritage restorations and contemporary curated screenings",
+        "commercial_or_curated_note": "Archive-led curated cinema",
+        "site_or_building_note": "National Archives of Singapore",
+        "source_primary": "SRC-055",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Canning Rise, Museum, Singapore 179868",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "AFA programme evidence documents recurring public screenings and 2026 activity."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.848404,
+          1.293136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-032",
+        "name": "Objectifs",
+        "operator_or_institution": "Objectifs Centre for Photography and Film",
+        "category": "institutional_curated",
+        "address": "155 Middle Road, Singapore",
+        "postal_code": "188977",
+        "current_status": "active",
+        "screening_pattern": "year-round public programme including screenings",
+        "programme_type": "photography film and visual-storytelling programmes",
+        "commercial_or_curated_note": "Non-profit arts and film centre",
+        "site_or_building_note": "Objectifs centre",
+        "source_primary": "SRC-056",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "155 Middle Road, Rochor, Singapore 188977",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Included as a stable institutional screening space; not represented as a daily commercial cinema."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.852085,
+          1.299667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "space_id": "CES-033",
+        "name": "Le Theatre at Alliance Francaise",
+        "operator_or_institution": "Alliance Francaise de Singapour",
+        "category": "institutional_curated",
+        "address": "1 Sarkies Road, Alliance Francaise de Singapour, Singapore",
+        "postal_code": "258130",
+        "current_status": "active",
+        "screening_pattern": "recurring public screenings and cultural programme",
+        "programme_type": "French and international film opera and cultural screenings",
+        "commercial_or_curated_note": "Institutional curated screening venue",
+        "site_or_building_note": "Alliance Francaise de Singapour",
+        "source_primary": "SRC-057",
+        "source_secondary": "Mapbox Search & Geocoding",
+        "source_tier": 1,
+        "verified_date": "2026-09-08",
+        "address_confidence": "high",
+        "geocode_confidence": "high",
+        "map_include": "yes",
+        "mapbox_returned_address": "1 Sarkies Road, Newton, Singapore 258130",
+        "mapbox_match_type": "exact address rooftop",
+        "geocode_mismatch_note": null,
+        "notes": "Current September 2026 programme confirms public film screenings; not represented as a daily commercial cinema."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.837186,
+          1.314077
+        ]
+      }
+    }
+  ]
+}

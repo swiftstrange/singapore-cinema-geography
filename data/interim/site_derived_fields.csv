@@ -1,0 +1,36 @@
+site_id,documented_operations_per_site,earliest_verified_opening_year,latest_verified_opening_year,current_operation_present,operation_names_summary
+S001,1,1930,1930,no,Capitol Theatre
+S002,1,1939,1939,no,Cathay Cinema
+S003,2,1938,1945,no,Queen's Theatre; Majestic Theatre
+S004,1,2009,2009,no,Rex Cinema
+S005,1,1965,1965,no,Venus Theatre
+S006,1,1965,1965,no,Golden City Theatre
+S007,1,1977,1977,no,Queenstown Cinema
+S008,3,1988,1991,no,Prince Cinema; Jade Cinema; Jade Classics
+S009,2,1993,2011,yes,Lido Cineplex; Shaw Theatres Lido
+S010,1,1992,1992,no,Golden Village Yishun
+S011,1,2014,2014,no,The Projector at Golden Mile Tower
+S012,2,1972,1987,no,Kong Chian Cinema; Central Cinema
+S013,2,1972,1972,no,Toa Payoh Cinema; Toa Payoh Entertainment Centre Cinema
+S014,1,1979,1979,no,Broadway Cinema
+S015,1,1971,1971,no,Jurong Drive-In Cinema
+S016,1,1904,1904,no,Paris Cinema
+S017,1,1939,1939,no,Sultan Theatre
+S018,1,1920,1920,no,Oriental Theatre
+S019,1,1929,1929,no,Jubilee Cinema
+S020,1,1965,1965,no,Galaxy Cinema
+S021,1,1993,1993,yes,Golden Village Bishan
+S022,1,1994,1994,no,Golden Village Tiong Bahru
+S023,1,1995,1995,yes,Golden Village Jurong Point
+S024,1,1996,1996,yes,Golden Village Tampines
+S025,1,2006,2006,yes,Golden Village VivoCity
+S026,1,1980,1980,no,Ang Mo Kio Cinema
+S027,1,1981,1981,no,Jubilee Cinema Ang Mo Kio
+S028,1,1980,1980,no,New Crown Cinema
+S029,1,1980,1980,no,New Town Cinema
+S030,1,1978,1978,no,Savoy Cinema
+S031,1,2007,2007,no,Cathay Cineplex Ang Mo Kio Hub
+S032,1,2017,2017,no,Cathay Cineplex Parkway Parade
+S033,2,1960,1973,no,Hoover Theatre; President Theatre
+S034,1,2016,2016,yes,Shaw Theatres Waterway Point
+S035,1,2012,2012,no,Shaw Theatres JCube

@@ -1,0 +1,277 @@
+{
+  "schema_version": "2.0",
+  "style": {
+    "name": "Singapore Cinema Geography",
+    "id": "cmtq74ywn00g801r2gri5d7v0",
+    "uri": "mapbox://styles/strange1989/cmtq74ywn00g801r2gri5d7v0",
+    "audited_published_at": "2026-09-08"
+  },
+  "constraints": {
+    "uses_existing_custom_layers_only": true,
+    "published_visual_properties_are_source_of_truth": true,
+    "runtime_changes": ["visibility", "filter", "camera"],
+    "runtime_paint_overrides": false,
+    "unresolved_records_are_not_geometry": true
+  },
+  "layer_roles": {
+    "opening_chronology": ["01_glow", "01_basic"],
+    "historical_venue_type": ["02_operations_venue_type"],
+    "operations_highlight": ["03_operations_highlight"],
+    "physical_site_operation_count": ["04_sites_operation_count"],
+    "continuity_context": ["05_continuity_cases"],
+    "single_case_highlight": ["06_glow", "06_basic"],
+    "current_exhibition_geography": ["07_glow", "07_basic"]
+  },
+  "published_layer_audit": {
+    "opening_year_basic": "01_basic",
+    "opening_year_glow": "01_glow",
+    "venue_type": "02_operations_venue_type",
+    "operations_highlight": "03_operations_highlight",
+    "site_operation_count": "04_sites_operation_count",
+    "continuity_cases": "05_continuity_cases",
+    "case_highlight_basic": "06_basic",
+    "case_highlight_glow": "06_glow",
+    "current_exhibition_basic": "07_basic",
+    "current_exhibition_glow": "07_glow",
+    "published_limitations": []
+  },
+  "layer_ids": [
+    "01_glow",
+    "01_basic",
+    "02_operations_venue_type",
+    "03_operations_highlight",
+    "04_sites_operation_count",
+    "05_continuity_cases",
+    "06_glow",
+    "06_basic",
+    "07_glow",
+    "07_basic"
+  ],
+  "data_checks": {
+    "opening_year_min": 1930,
+    "opening_year_max": 2026,
+    "mapped_historical_operations": 37,
+    "mapped_historical_sites": 28,
+    "continuity_cases": 7,
+    "current_exhibition_spaces": 33,
+    "golden_mile_site_id": "SGC-S-011"
+  },
+  "default_filters": {
+    "03_operations_highlight": "chapter_placeholder",
+    "06_glow": "case_placeholder",
+    "06_basic": "case_placeholder"
+  },
+  "filters": {
+    "chapter_placeholder": ["match", ["get", "operation_id"], ["__chapter_selection__"], true, false],
+    "case_placeholder": ["match", ["get", "site_id"], ["__case_selection__"], true, false],
+    "opening_1930_1949": ["==", ["get", "opening_period"], "1930–1949"],
+    "opening_through_1969": ["in", ["get", "opening_period"], ["literal", ["1930–1949", "1950–1969"]]],
+    "opening_through_1989": ["in", ["get", "opening_period"], ["literal", ["1930–1949", "1950–1969", "1970–1989"]]],
+    "new_town_all": ["in", ["get", "operation_id"], ["literal", ["SGC-O-006", "SGC-O-007", "SGC-O-008", "SGC-O-016", "SGC-O-017", "SGC-O-018", "SGC-O-032", "SGC-O-034", "SGC-O-035", "SGC-O-036"]]],
+    "new_town_queenstown": ["in", ["get", "operation_id"], ["literal", ["SGC-O-006", "SGC-O-007", "SGC-O-008"]]],
+    "new_town_toa_payoh": ["in", ["get", "operation_id"], ["literal", ["SGC-O-016", "SGC-O-017", "SGC-O-018"]]],
+    "new_town_ang_mo_kio": ["in", ["get", "operation_id"], ["literal", ["SGC-O-032", "SGC-O-034", "SGC-O-035"]]],
+    "new_town_boon_lay": ["==", ["get", "operation_id"], "SGC-O-036"],
+    "venue_standalone": ["==", ["get", "venue_type_display"], "Standalone cinema"],
+    "venue_community_new_town": ["==", ["get", "venue_type_display"], "Community / new-town commercial centre"],
+    "venue_mixed_mall": ["in", ["get", "venue_type_display"], ["literal", ["Mixed-use cinema complex", "Mall-integrated cinema"]]],
+    "repeated_sites": [">=", ["get", "documented_operations_per_site"], 2],
+    "golden_mile": ["==", ["get", "site_id"], "SGC-S-011"],
+    "current_categories": ["in", ["get", "category"], ["literal", ["commercial", "independent_curated", "heritage_hybrid", "institutional_curated"]]]
+  },
+  "states": [
+    {
+      "id": "cover_island", "chapter": "Cover",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 1100},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": null, "01_basic": null},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "opening_island", "chapter": "Opening",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 800},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": null, "01_basic": null},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "c1_early_openings", "chapter": "Chapter 1",
+      "center": [103.847208, 1.292054], "zoom": 14.74, "bearing": 0, "pitch": 0,
+      "bounds": [[103.843202, 1.284708], [103.851214, 1.299399]],
+      "transition": {"method": "easeTo", "duration_ms": 800},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": "opening_1930_1949", "01_basic": "opening_1930_1949"},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "c1_midcentury_expansion", "chapter": "Chapter 1",
+      "center": [103.849941, 1.304812], "zoom": 12.37, "bearing": 0, "pitch": 0,
+      "bounds": [[103.803126, 1.284708], [103.896755, 1.324916]],
+      "transition": {"method": "easeTo", "duration_ms": 900},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": "opening_through_1969", "01_basic": "opening_through_1969"},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "c1_1970s_1980s_wave", "chapter": "Chapter 1",
+      "center": [103.80441, 1.328783], "zoom": 11.39, "bearing": 0, "pitch": 0,
+      "bounds": [[103.71206559, 1.284708], [103.896755, 1.372857]],
+      "transition": {"method": "easeTo", "duration_ms": 1000},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": "opening_through_1989", "01_basic": "opening_through_1989"},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "c1_full_chronology", "chapter": "Chapter 1",
+      "center": [103.825756, 1.350845], "zoom": 10.85, "bearing": 0, "pitch": 0,
+      "bounds": [[103.69202389, 1.25362551], [103.959488, 1.44806449]],
+      "transition": {"method": "easeTo", "duration_ms": 1000},
+      "active_layers": ["01_glow", "01_basic"], "filters": {"01_glow": null, "01_basic": null},
+      "legend": "opening_year", "map_label": ""
+    },
+    {
+      "id": "c2_new_town_overview", "chapter": "Chapter 2",
+      "center": [103.8, 1.335], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "flyTo", "duration_ms": 1400},
+      "active_layers": ["01_basic", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_all"},
+      "legend": "new_town_wave", "map_label": "Queenstown · Toa Payoh · Ang Mo Kio · Boon Lay"
+    },
+    {
+      "id": "c2_queenstown", "chapter": "Chapter 2",
+      "center": [103.8044, 1.2965], "zoom": 14.0, "bearing": -8, "pitch": 24,
+      "transition": {"method": "flyTo", "duration_ms": 1700},
+      "active_layers": ["01_glow", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_queenstown"},
+      "legend": "new_town_wave_confidence", "map_label": "Queenstown"
+    },
+    {
+      "id": "c2_toa_payoh", "chapter": "Chapter 2",
+      "center": [103.8502, 1.3329], "zoom": 14.1, "bearing": 0, "pitch": 26,
+      "transition": {"method": "flyTo", "duration_ms": 1750},
+      "active_layers": ["01_glow", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_toa_payoh"},
+      "legend": "new_town_wave", "map_label": "Toa Payoh"
+    },
+    {
+      "id": "c2_ang_mo_kio", "chapter": "Chapter 2",
+      "center": [103.84745, 1.3711], "zoom": 13.9, "bearing": 6, "pitch": 26,
+      "transition": {"method": "flyTo", "duration_ms": 1750},
+      "active_layers": ["01_glow", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_ang_mo_kio"},
+      "legend": "new_town_wave_confidence", "map_label": "Ang Mo Kio"
+    },
+    {
+      "id": "c2_boon_lay", "chapter": "Chapter 2",
+      "center": [103.712066, 1.347455], "zoom": 13.5, "bearing": -6, "pitch": 22,
+      "transition": {"method": "flyTo", "duration_ms": 1900},
+      "active_layers": ["01_glow", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_boon_lay"},
+      "legend": "new_town_wave", "map_label": "Boon Lay"
+    },
+    {
+      "id": "c2_new_town_return", "chapter": "Chapter 2",
+      "center": [103.8, 1.335], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "flyTo", "duration_ms": 2100},
+      "active_layers": ["01_glow", "01_basic", "03_operations_highlight"],
+      "filters": {"01_glow": null, "01_basic": null, "03_operations_highlight": "new_town_all"},
+      "legend": "new_town_wave_confidence", "map_label": "Queenstown · Toa Payoh · Ang Mo Kio · Boon Lay"
+    },
+    {
+      "id": "c3_venue_type_overview", "chapter": "Chapter 3",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 900},
+      "active_layers": ["02_operations_venue_type"], "filters": {"02_operations_venue_type": null},
+      "legend": "venue_type", "map_label": ""
+    },
+    {
+      "id": "c3_standalone_focus", "chapter": "Chapter 3",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 800},
+      "active_layers": ["02_operations_venue_type"], "filters": {"02_operations_venue_type": "venue_standalone"},
+      "legend": "venue_type", "map_label": ""
+    },
+    {
+      "id": "c3_community_new_town_focus", "chapter": "Chapter 3",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 800},
+      "active_layers": ["02_operations_venue_type"], "filters": {"02_operations_venue_type": "venue_community_new_town"},
+      "legend": "venue_type", "map_label": ""
+    },
+    {
+      "id": "c3_mixed_mall_focus", "chapter": "Chapter 3",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 800},
+      "active_layers": ["02_operations_venue_type"], "filters": {"02_operations_venue_type": "venue_mixed_mall"},
+      "legend": "venue_type", "map_label": ""
+    },
+    {
+      "id": "c3_venue_type_coexistence", "chapter": "Chapter 3",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 900},
+      "active_layers": ["02_operations_venue_type"], "filters": {"02_operations_venue_type": null},
+      "legend": "venue_type", "map_label": ""
+    },
+    {
+      "id": "c4_site_count_overview", "chapter": "Chapter 4",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "flyTo", "duration_ms": 1400},
+      "active_layers": ["04_sites_operation_count"], "filters": {"04_sites_operation_count": null},
+      "legend": "documented_operations_per_site", "map_label": ""
+    },
+    {
+      "id": "c4_repeated_sites_focus", "chapter": "Chapter 4",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 900},
+      "active_layers": ["04_sites_operation_count"], "filters": {"04_sites_operation_count": "repeated_sites"},
+      "legend": "documented_operations_per_site_repeated", "map_label": ""
+    },
+    {
+      "id": "c4_continuity_context", "chapter": "Chapter 4",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "easeTo", "duration_ms": 900},
+      "active_layers": ["05_continuity_cases"], "filters": {"05_continuity_cases": null},
+      "legend": "continuity_cases", "map_label": ""
+    },
+    {
+      "id": "c4_golden_mile_transition", "chapter": "Chapter 4",
+      "center": [103.864161, 1.301929], "zoom": 13.4, "bearing": 0, "pitch": 0,
+      "transition": {"method": "flyTo", "duration_ms": 1800},
+      "active_layers": ["05_continuity_cases"], "filters": {"05_continuity_cases": "golden_mile"},
+      "legend": "continuity_case_selected", "map_label": ""
+    },
+    {
+      "id": "c5_golden_mile_entry", "chapter": "Chapter 5",
+      "center": [103.864161, 1.301929], "zoom": 14.6, "bearing": -6, "pitch": 20,
+      "transition": {"method": "flyTo", "duration_ms": 1800},
+      "active_layers": ["05_continuity_cases", "06_glow", "06_basic"],
+      "filters": {"05_continuity_cases": "golden_mile", "06_glow": "golden_mile", "06_basic": "golden_mile"},
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "entry"
+    },
+    {
+      "id": "c5_golden_theatre", "chapter": "Chapter 5",
+      "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
+      "transition": {"method": "easeTo", "duration_ms": 650},
+      "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "Golden Theatre"
+    },
+    {
+      "id": "c5_the_projector", "chapter": "Chapter 5",
+      "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
+      "transition": {"method": "easeTo", "duration_ms": 650},
+      "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "The Projector"
+    },
+    {
+      "id": "c5_filmhouse", "chapter": "Chapter 5",
+      "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
+      "transition": {"method": "easeTo", "duration_ms": 650},
+      "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "Filmhouse"
+    },
+    {
+      "id": "ending_tonight", "chapter": "Ending",
+      "center": [103.825, 1.35], "zoom": 10.35, "bearing": 0, "pitch": 0,
+      "transition": {"method": "flyTo", "duration_ms": 2800},
+      "active_layers": ["07_glow", "07_basic"], "filters": {"07_glow": "current_categories", "07_basic": "current_categories"},
+      "legend": "current_exhibition_category", "map_label": ""
+    }
+  ]
+}

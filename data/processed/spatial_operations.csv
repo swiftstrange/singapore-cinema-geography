@@ -1,0 +1,38 @@
+record_id,site_id,name,opening_year,operation_status,venue_type,mall_based,mall_name,spatial_use,site_latitude,site_longitude,site_geocode_confidence
+SGC-O-001,SGC-S-001,Capitol Theatre,1930,uncertain,other,unknown,,include_high,1.2935,103.851214,high
+SGC-O-002,SGC-S-002,Cathay Cinema,1939,uncertain,mixed_use_complex,unknown,,include_high,1.299399,103.847857,high
+SGC-O-003,SGC-S-003,Queen's Theatre,1938,uncertain,unknown,unknown,,include_high,1.284708,103.843202,high
+SGC-O-004,SGC-S-003,Majestic Theatre,1945,uncertain,unknown,unknown,,include_high,1.284708,103.843202,high
+SGC-O-005,SGC-S-004,Rex Cinemas,2009,closed,standalone,no,,include_high,1.304857,103.850057,high
+SGC-O-006,SGC-S-005,Venus Theatre,1965,closed,community/neighbourhood commercial centre,no,,include_high,1.298913,103.803126,high
+SGC-O-007,SGC-S-006,Golden City Theatre,1965,closed,community/neighbourhood commercial centre,no,,include_high,1.29904,103.803685,high
+SGC-O-008,SGC-S-007,Queenstown Cinema and Bowling Centre,1977,closed,community/neighbourhood commercial centre,no,,include_medium,1.293933,103.806318,medium
+SGC-O-009,SGC-S-008,Prince 1 and 2,1988,uncertain,mixed_use_complex,no,,include_high,1.296531,103.856776,high
+SGC-O-010,SGC-S-008,Jade 1 and 2,1988,uncertain,mixed_use_complex,no,,include_high,1.296531,103.856776,high
+SGC-O-011,SGC-S-008,Jade Classics,1991,uncertain,mixed_use_complex,no,,include_high,1.296531,103.856776,high
+SGC-O-012,SGC-S-009,Lido Cineplex,1993,uncertain,mixed_use_complex,yes,Shaw House,include_high,1.305741,103.831647,high
+SGC-O-013,SGC-S-009,Shaw Theatres Lido (2011 reimagining),2011,current,mixed_use_complex,yes,Shaw House,include_high,1.305741,103.831647,high
+SGC-O-014,SGC-S-010,GV Yishun,1992,uncertain,unknown,unknown,,include_high,1.43737,103.842167,high
+SGC-O-015,SGC-S-011,The Projector at Golden Mile Tower,2014,closed,mixed_use_complex,no,Golden Mile Tower,include_high,1.301929,103.864161,high
+SGC-O-043,SGC-S-011,Golden Theatre,1973,closed,mixed_use_complex,no,,include_high,1.301929,103.864161,high
+SGC-O-044,SGC-S-011,Filmhouse,2026,open,mixed_use_complex,no,Golden Mile Tower,include_high,1.301929,103.864161,high
+SGC-O-016,SGC-S-012,Kong Chian Cinema,1972,closed,community/neighbourhood commercial centre,no,,include_high,1.333977,103.850972,high
+SGC-O-017,SGC-S-012,Central Cinema,1987,closed,community/neighbourhood commercial centre,no,,include_high,1.333977,103.850972,high
+SGC-O-018,SGC-S-013,Toa Payoh Cinema,1972,uncertain,community/neighbourhood commercial centre,no,,include_high,1.33168,103.849386,high
+SGC-O-019,SGC-S-013,Toa Payoh Entertainment Centre,,closed,mixed_use_complex,no,,include_high,1.33168,103.849386,high
+SGC-O-026,SGC-S-020,Galaxy Cinema,1965,uncertain,community/neighbourhood commercial centre,no,,include_high,1.315602,103.896755,high
+SGC-O-027,SGC-S-021,GV Bishan,1993,current,mall_integrated,yes,Junction 8,include_high,1.350506,103.848729,high
+SGC-O-028,SGC-S-022,GV Tiong Bahru,1994,closed,mall_integrated,yes,Tiong Bahru Plaza,include_high,1.286382,103.82731,high
+SGC-O-029,SGC-S-023,GV Jurong Point,1995,current,mall_integrated,yes,Jurong Point,include_medium,1.33996276,103.70673489,medium
+SGC-O-030,SGC-S-024,GV Tampines,1996,current,mall_integrated,yes,Tampines Mall,include_high,1.352475,103.944777,high
+SGC-O-031,SGC-S-025,GV VivoCity,2006,current,mall_integrated,yes,VivoCity,include_high,1.26432,103.822189,high
+SGC-O-032,SGC-S-026,Ang Mo Kio Cinema,1980,uncertain,community/neighbourhood commercial centre,unknown,,include_high,1.369356,103.847187,high
+SGC-O-034,SGC-S-028,New Crown Cinema,1980,uncertain,community/neighbourhood commercial centre,unknown,,include_medium,1.372857,103.847625,medium
+SGC-O-035,SGC-S-029,New Town Cinema,1980,uncertain,community/neighbourhood commercial centre,unknown,,include_medium,1.372857,103.847625,medium
+SGC-O-036,SGC-S-030,Savoy Cinema,1978,uncertain,community/neighbourhood commercial centre,unknown,,include_high,1.34745533,103.71206559,high
+SGC-O-037,SGC-S-031,Cathay Cineplexes AMK Hub,2007,closed,mall_integrated,yes,AMK Hub,include_high,1.369342,103.848474,high
+SGC-O-038,SGC-S-032,Cathay Cineplex Parkway Parade,2017,closed,mall_integrated,yes,Parkway Parade,include_high,1.301689,103.905132,high
+SGC-O-039,SGC-S-033,Hoover Theatre,1960,closed,mixed_use_complex,no,,include_high,1.324916,103.851195,high
+SGC-O-040,SGC-S-033,President Theatre,1973,closed,mixed_use_complex,no,,include_high,1.324916,103.851195,high
+SGC-O-041,SGC-S-034,Shaw Theatres Waterway Point,2016,current,mall_integrated,yes,Waterway Point,include_high,1.406209,103.90216,high
+SGC-O-042,SGC-S-035,Shaw Theatres JCube,2012,uncertain,mall_integrated,yes,JCube,include_high,1.333328,103.740189,high

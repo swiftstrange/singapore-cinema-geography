@@ -1,0 +1,5 @@
+candidate_name,operator_or_institution,address,outcome,reason,source_ids,verified_date,notes
+ArtScience Cinema,ArtScience Museum,6 Bayfront Avenue Singapore 018974,excluded_currently_closed,Official notice says closed from 1 September 2026.,SRC-060,2026-09-08,Stable purpose-built cinema and curated programme retained as a future recheck candidate; not map-included while closed.
+SAS Cineplex Causeway Point,SAS Cineplex,1 Woodlands Square Singapore 738099,excluded_currently_closed,Cinema Online records temporary closure until further notice from 6 April 2026.,SRC-059,2026-09-08,Excluded because current recurring public screenings could not be verified.
+GV Tiong Bahru,Golden Village,302 Tiong Bahru Road Singapore 168732,excluded_closed,Cinema Online records cessation from 30 March 2026.,SRC-059,2026-09-08,Not part of current inventory.
+GV Plaza Singapura,Golden Village,68 Orchard Road Singapore 238839,excluded_closed,Cinema Online records cessation from 17 August 2026.,SRC-059,2026-09-08,Not part of current inventory.

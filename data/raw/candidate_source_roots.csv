@@ -1,0 +1,6 @@
+source_row_id,source_id,reported_name,reported_location,reported_address,reported_operator,reported_opening,reported_closing,reported_status,reported_screens,reported_seats,source_url_or_identifier,notes
+ROOTS-001,DISC-ROOTS,Capitol Theatre,Downtown Core,17 Stamford Road,,1930,,historic,,,https://www.roots.gov.sg/places/places-landing/Places/national-monuments/capitol-building,Historic building context
+ROOTS-002,DISC-ROOTS,Cathay Building,Downtown Core,2 Handy Road,Cathay Organisation,1939,,historic,,,https://www.roots.gov.sg/places/places-landing/Places/national-monuments/the-cathay,Historic cinema-complex context
+ROOTS-003,DISC-ROOTS,Majestic Theatre,Chinatown,80 Eu Tong Sen Street,,1928,,historic,,,https://www.roots.gov.sg/places/places-landing/Places/national-monuments/majestic-theatre,Historic building context
+ROOTS-004,DISC-ROOTS,Rex Cinema,Little India,2 Mackenzie Road,,1930s,,historic,,,https://www.roots.gov.sg/places/places-landing/Places/national-monuments/rex-cinema,Historic building context
+ROOTS-005,DISC-ROOTS,Shaw Tower cinemas,Rochor,100 Beach Road,Shaw Organisation,1970s,,historic,,,https://www.roots.gov.sg/places/places-landing/Places/landmarks/shaw-towers,Prince/Jade building context

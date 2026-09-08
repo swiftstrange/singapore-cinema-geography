@@ -1,0 +1,30 @@
+matrix_id,source_id,candidate_id,facts_supported,evidence_ids,source_strength
+SCM-001,SRC-033,CAND-118,identity chronology operator lineage redevelopment,EH-001,high
+SCM-002,SRC-033,CAND-121,identity chronology operator lineage redevelopment,EH-002,high
+SCM-003,SRC-034,CAND-028,identity address opening operator venue context screens,EH-003,high
+SCM-004,SRC-034,CAND-059,identity opening operator venue context,EH-004,high
+SCM-005,SRC-034,CAND-101,identity opening operator venue context,EH-005;EH-016,high
+SCM-006,SRC-031,CAND-004,identity operator venue context,EH-006,medium
+SCM-007,SRC-031,CAND-009,identity operator venue context,EH-007,medium
+SCM-008,SRC-031,CAND-111,identity operator venue context,EH-008;EH-013,medium
+SCM-009,SRC-031,CAND-014,identity operator venue context,EH-009;EH-014,medium
+SCM-010,SRC-031,CAND-005,identity operator venue context,EH-010;EH-012,medium
+SCM-011,SRC-032,CAND-006,identity closing operator venue context,EH-011,medium
+SCM-012,SRC-035,CAND-067,identity closing redevelopment,EH-015,medium
+SCM-013,SRC-036,CAND-030,identity opening operator lineage,EH-017,medium
+SCM-014,SRC-001,CAND-049,identity opening venue context,EH-018,high
+SCM-015,SRC-001,CAND-034,identity opening venue context,EH-019,high
+SCM-016,SRC-001,CAND-060,identity opening redevelopment,EH-020,high
+SCM-017,SRC-001,CAND-100,identity opening venue context,EH-021,high
+SCM-018,SRC-001,CAND-122,identity opening venue context,EH-022,high
+SCM-019,SRC-001,CAND-051,identity opening operator lineage redevelopment,EH-023,high
+SCM-020,SRC-001,CAND-062,identity address opening operator venue context seats,EH-024,high
+SCM-021,SRC-037,CAND-014,identity closing operator venue context,EH-025,medium
+SCM-022,SRC-037,CAND-111,identity closing operator venue context,EH-026,medium
+SCM-023,SRC-037,CAND-006,identity closing operator venue context,EH-027,medium
+SCM-024,SRC-037,CAND-004,identity operator venue context,EH-028,medium
+SCM-025,SRC-037,CAND-005,identity operator venue context,EH-029,medium
+SCM-026,SRC-038,CAND-117,site identity opening redevelopment,EH-030,high
+SCM-027,SRC-038,CAND-120,site identity address opening closing redevelopment,EH-031,high
+SCM-028,SRC-039,CAND-059,identity address opening operator venue context,EH-032,high
+SCM-029,SRC-021,CAND-037,identity address opening operator site identity,EH-033,high

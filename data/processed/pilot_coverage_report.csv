@@ -1,0 +1,9 @@
+field,total_records,verified,conflicting,unknown_or_missing,not_applicable,total_record_coverage_percent,applicable_records,applicable_record_coverage_percent,method_note
+opening_date_or_year,15,15,0,0,0,100.0,15,100.0,An accepted date or year is verified.
+closing_date_or_year,15,6,0,8,1,40.0,14,42.9,Open Shaw Lido is not_applicable_current; all other blank closure fields are genuinely unknown.
+precise_historical_address,15,14,0,1,0,93.3,15,93.3,Full source-backed textual address only; GV Yishun needs a contemporaneous address source.
+venue_type,15,12,0,3,0,80.0,15,80.0,Only controlled documentary building-context classifications count.
+mall_based,15,8,0,7,0,53.3,15,53.3,Verified means an evidenced yes or no; unknown is retained where building context is insufficient.
+screens_time_aware,15,6,0,9,0,40.0,15,40.0,Only dated or configuration-specific counts count.
+seats_time_aware,15,7,0,8,0,46.7,15,46.7,Only dated/configuration-specific capacities count; all values retain an as-of context.
+site_identity,15,15,0,0,0,100.0,15,100.0,Every operation links to a verified site; no coordinates are present.
