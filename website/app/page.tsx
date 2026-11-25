@@ -1,13 +1,22 @@
+/// <reference types="vite/client" />
+
 'use client';
 
 import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import chapterConfig from '../../data/interim/chapter_map_states.json';
+import operationsGeoJson from '../../data/mapbox/cinema_operations.geojson?raw';
 import { MAPBOX_PUBLIC_TOKEN, MAPBOX_STYLE_URI } from '../js/config.js';
 
 export const dynamic = 'force-static';
 
 type MapInstance = any;
 type Feature = { id?: string | number; properties?: Record<string, unknown>; layer?: { id: string }; geometry?: { type?: string; coordinates?: number[] } };
+type OperationProperties = Record<string, unknown> & {
+  operation_id: string; site_id: string; cinema_name: string;
+  opening_year: number | null; closing_year: number | null; mall_name: string | null;
+};
+const operationData = JSON.parse(operationsGeoJson) as { features: { properties: OperationProperties }[] };
+const operations = operationData.features.map(({ properties }) => properties);
 type LegendPalette = {
   opening: string[];
   venue: Record<string, string>;
@@ -126,22 +135,44 @@ const steps = [
   ['ending_tonight', 'Ending', 'Where Would You Go Tonight?', 'Today’s 33 mapped exhibition spaces are the latest layer of a geography repeatedly rewritten: through new locations of entry, new-town expansion, changing building types and addresses that return to cinema in different forms. The routes now lead to commercial, independent, heritage and institutional venues—but the question is still spatial as much as cinematic: where would you go tonight?']
 ] as const;
 const layers = chapterConfig.layer_ids as string[];
-type MediaItem = { src: string; alt: string; caption: string; credit: string; href: string; position?: string };
+type MediaItem = { src: string; alt: string; caption: string; credit: string; href: string; position?: string; license?: { label: string; href: string; changes?: string } };
 type SupportingMediaItem = Pick<MediaItem, 'src' | 'alt' | 'position'>;
 type CaseMediaItem = MediaItem & { supporting?: SupportingMediaItem[]; supportingCredit?: string };
 const media: Record<string, MediaItem> = {
   c1_early_openings: { src: '/media/capitol-c1950.jpg', alt: 'Capitol Theatre and Namazie Mansions at Stamford Road, circa 1950', caption: 'Capitol Theatre and Namazie Mansions at Stamford Road, c.1950.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
   c1_midcentury_expansion: { src: '/media/lido-1960s.jpg', alt: 'Lido Theatre and Shaw House at Orchard Road and Scotts Road in the 1960s', caption: 'Lido Theatre and Shaw House at Orchard Road and Scotts Road, 1960s.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
   c1_1970s_1980s_wave: { src: '/media/jurong-drive-in-1971.png', alt: 'Vehicles at Jurong Drive-In Cinema on its opening night in 1971', caption: 'Vehicles at Jurong Drive-In Cinema on opening night, 14 July 1971.', credit: 'Ministry of Information and the Arts Collection, National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
-  c1_full_chronology: { src: '/media/jubilee-amk-1994.png', alt: 'Jubilee Theatre in Ang Mo Kio Town Centre in 1994', caption: 'Jubilee Theatre in Ang Mo Kio Town Centre, 1994.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
+  c1_full_chronology: {
+    src: '/media/gv-yishun-2025.jpg',
+    alt: 'Street view of the GV Yishun multiplex with its rocket-shaped facade detail',
+    caption: 'GV Yishun, opened as Yishun 10 in 1992. Photographed on 11 September 2025.',
+    credit: 'S5A-0043, via Wikimedia Commons',
+    href: 'https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_GV_Yishun_2025-09-11.jpg',
+    license: { label: 'CC BY 4.0', href: 'https://creativecommons.org/licenses/by/4.0/', changes: 'Resized for web.' }
+  },
   c2_queenstown: { src: '/media/queenstown-venus-golden-city.png', alt: 'Former Venus and Golden City Theatres at Margaret Drive in Queenstown', caption: 'Former Venus and Golden City Theatres at Margaret Drive; image date not stated.', credit: 'National Heritage Board, via Roots.', href: 'https://www.roots.gov.sg/places/places-landing/Places/landmarks/my-queenstown-heritage-trail/former-venus-golden-city-theatres' },
   c2_toa_payoh: { src: '/media/toa-payoh-kong-chian.jpg', alt: 'The former Kong Chian Cinema building at 600 Lorong 4 Toa Payoh', caption: '600@Toa Payoh, the former Kong Chian Cinema building; image date not stated.', credit: 'National Heritage Board, via Roots.', href: 'https://www.roots.gov.sg/places/places-landing/Places/surveyed-sites/600-at-Toa-Payoh-Former-Kong-Chian-Cinema' },
   c2_ang_mo_kio: { src: '/media/jubilee-amk-1994.png', alt: 'Jubilee Theatre in Ang Mo Kio Town Centre, 1994', caption: 'Jubilee Theatre in Ang Mo Kio Town Centre, 1994.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
   c2_boon_lay: { src: '/media/savoy-cinema-boon-lay.jpg', alt: 'Savoy Cinema building at Boon Lay', caption: 'Savoy Cinema, Boon Lay.', credit: 'Image source: Flight Sixty Five (WordPress).', href: 'https://flightsixtyfive.wordpress.com/2014/01/06/former-savoy-cinema-%e5%9b%9b%e6%b5%b7%e6%88%8f%e9%99%a2/' },
   c3_standalone_focus: { src: '/media/rex-cinemas-mackenzie.jpg', alt: 'The standalone Rex Cinemas building at 2 Mackenzie Road', caption: 'Rex Cinemas at 2 Mackenzie Road; image date not stated.', credit: 'National Heritage Board, via Roots.', href: 'https://www.roots.gov.sg/places/places-landing/Places/surveyed-sites/Rex-Cinemas' },
-  c3_community_new_town_focus: { src: '/media/toa-payoh-kong-chian.jpg', alt: 'The former Kong Chian Cinema building in Toa Payoh town centre', caption: '600@Toa Payoh, the former Kong Chian Cinema building; image date not stated.', credit: 'National Heritage Board, via Roots.', href: 'https://www.roots.gov.sg/places/places-landing/Places/surveyed-sites/600-at-Toa-Payoh-Former-Kong-Chian-Cinema' },
-  c3_mixed_mall_focus: { src: '/media/lido-1960s.jpg', alt: 'Lido Theatre and the adjoining Shaw House mixed-use complex in the 1960s', caption: 'Lido Theatre and Shaw House at Orchard Road and Scotts Road, 1960s.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' },
-  c4_lido_focus: { src: 'https://isomer-user-content.by.gov.sg/339/c03ef889-b37d-4e7c-8ba0-2cf616828b3f/cinema_lido.jpg', alt: 'Lido Theatre and Shaw House at Orchard Road and Scotts Road in the 1960s', caption: 'Lido Theatre and Shaw House at Orchard Road and Scotts Road, 1960s.', credit: 'National Archives of Singapore, via BiblioAsia.', href: 'https://biblioasia.nlb.gov.sg/all-sections/vol-21-issue-4-jan-mar-2026-history-singapore-cinemas/' }
+  c3_community_new_town_focus: {
+    src: '/media/queenstown-cinema-bowling-centre-2006.jpg',
+    alt: 'Facade of the former Queenstown Cinema and Bowling Centre with the Queensway and Queenstown theatre signs',
+    caption: 'Former Queenstown Cinema and Bowling Centre, opened in 1977. Photographed in August 2006.',
+    credit: 'Terence Ong, via Wikimedia Commons',
+    href: 'https://commons.wikimedia.org/wiki/File:Former_Queenstown_Cinema.JPG',
+    position: '50% 84%',
+    license: { label: 'CC BY 2.5', href: 'https://creativecommons.org/licenses/by/2.5/' }
+  },
+  c3_mixed_mall_focus: {
+    src: '/media/cineleisure-orchard-2005.jpg',
+    alt: 'Cathay sign above the glass facade of Cineleisure Orchard on Grange Road',
+    caption: 'Cathay Cineleisure Orchard on Grange Road, December 2005. The complex combined cinema screens, shops and dining.',
+    credit: 'Sengkang, via Wikimedia Commons',
+    href: 'https://commons.wikimedia.org/wiki/File:Cineleisure_Orchard,_Dec_05.JPG',
+    position: '50% 55%',
+    license: { label: 'Copyrighted free use', href: 'https://commons.wikimedia.org/wiki/File:Cineleisure_Orchard,_Dec_05.JPG#Licensing' }
+  }
 };
 const caseMedia: Record<string, CaseMediaItem> = {
   c5_golden_mile_entry: { src: '/media/golden-mile-tower-darren-soh.jpg', alt: 'Golden Mile Tower and its distinctive cinema block', caption: 'Golden Mile Tower’s cinema block; image date not stated.', credit: 'Photograph by Darren Soh, via Docomomo Singapore.', href: 'https://www.docomomo.sg/modernist-100/golden-mile-tower', position: '50% 54%' },
@@ -163,13 +194,38 @@ const caseMedia: Record<string, CaseMediaItem> = {
   }
 };
 
-const clean = (value: unknown, fallback = 'Not documented') => value === null || value === undefined || value === '' ? fallback : String(value);
-function popupHtml(feature: Feature) {
-  const p = feature.properties ?? {}; const layer = feature.layer?.id ?? '';
-  if (layer.startsWith('07_')) return `<h3>${clean(p.name)}</h3><p><b>Current category:</b> ${clean(p.category)}</p><p><b>Operator / institution:</b> ${clean(p.operator_or_institution)}</p><p><b>Address:</b> ${clean(p.address)}</p><p class="confidence">Coordinate confidence: ${clean(p.geocode_confidence)}</p>`;
-  if (layer.includes('continuity') || layer.includes('case')) return `<h3>${clean(p.site_address)}</h3><p><b>Documented sequence</b><br>${clean(p.operation_sequence)}</p><p>${clean(p.continuity_note, clean(p.continuity_or_redevelopment_note))}</p><p class="confidence">Coordinate confidence: ${clean(p.geocode_confidence)}</p>`;
-  if (layer.includes('sites')) return `<h3>${clean(p.site_name, clean(p.site_address))}</h3><p><b>Documented cinema operations:</b> ${clean(p.documented_operations_per_site)}</p><p><b>Earliest opening year:</b> ${clean(p.earliest_verified_opening_year)}</p><p><b>Address:</b> ${clean(p.address, clean(p.site_address))}</p><p>${clean(p.operation_names_summary, clean(p.operation_names))}</p><p>${clean(p.continuity_note, '')}</p><p class="confidence">Coordinate confidence: ${clean(p.geocode_confidence)}</p>`;
+function clean(value: unknown, fallback = 'Not documented') {
+  if (typeof value === 'number') return String(value);
+  if (typeof value !== 'string' || value === '') return fallback;
+  return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+}
+
+function operationPopup(p: Record<string, unknown>) {
   return `<h3>${clean(p.cinema_name)}</h3><p><b>Opening year:</b> ${clean(p.opening_year)}</p><p><b>Status:</b> ${clean(p.operation_status)}</p><p><b>Venue setting:</b> ${clean(p.venue_type_display)}</p><p><b>Operator:</b> ${clean(p.operator)}</p><p><b>Address:</b> ${clean(p.site_address)}</p><p class="confidence">Coordinate confidence: ${clean(p.geocode_confidence)}</p>`;
+}
+
+function popupHtml(feature: Feature, caseOperationId?: string) {
+  const p = feature.properties ?? {};
+  const layer = feature.layer?.id ?? '';
+  const confidence = `<p class="confidence">Coordinate confidence: ${clean(p.geocode_confidence)}</p>`;
+  if (p.space_id) return `<h3>${clean(p.name)}</h3><p><b>Current category:</b> ${clean(p.category)}</p><p><b>Operator / institution:</b> ${clean(p.operator_or_institution)}</p><p><b>Address:</b> ${clean(p.address)}</p>${confidence}`;
+  if (p.operation_id) return operationPopup(p);
+
+  if (layer === '06_basic' || layer === '06_glow') {
+    const history = operations.filter((operation) => operation.site_id === p.site_id)
+      .sort((a, b) => (a.opening_year ?? Infinity) - (b.opening_year ?? Infinity));
+    const selectedOperation = history.find((operation) => operation.operation_id === caseOperationId);
+    if (selectedOperation) return operationPopup(selectedOperation);
+    const siteName = history.find((operation) => operation.mall_name)?.mall_name;
+    const sequence = history.map((operation) => {
+      const years = [operation.opening_year, operation.closing_year].filter((year) => year !== null).join('–');
+      return years ? `${clean(operation.cinema_name)} (${years})` : clean(operation.cinema_name);
+    }).join('<br>');
+    return `<h3>${clean(siteName ?? p.site_name)}</h3><p><b>Address:</b> ${clean(p.address)}</p><p><b>Documented cinema operations (${clean(p.documented_operations_per_site)})</b><br>${sequence || clean(p.operation_names_summary)}</p>${confidence}`;
+  }
+
+  if (p.case_id) return `<h3>${clean(p.site_address)}</h3><p><b>Documented sequence</b><br>${clean(p.operation_sequence)}</p><p>${clean(p.continuity_note)}</p>${confidence}`;
+  return `<h3>${clean(p.site_name, clean(p.address))}</h3><p><b>Documented cinema operations:</b> ${clean(p.documented_operations_per_site)}</p><p><b>Earliest opening year:</b> ${clean(p.earliest_verified_opening_year)}</p><p><b>Address:</b> ${clean(p.address)}</p><p>${clean(p.operation_names_summary)}</p><p>${clean(p.continuity_note, '')}</p>${confidence}`;
 }
 
 function LegendDot({ color, stroke, radius }: { color: string; stroke?: string; radius?: number }) {
@@ -197,7 +253,16 @@ function Legend({ name, palette }: { name: string; palette: LegendPalette }) {
 }
 
 function ArchivalMedia({ item }: { item: MediaItem }) {
-  return <figure className="archival-media"><img src={item.src} alt={item.alt} loading="lazy" /><figcaption><span>{item.caption}</span><a href={item.href} target="_blank" rel="noreferrer">{item.credit}</a></figcaption></figure>;
+  return <figure className="archival-media">
+    <img src={item.src} alt={item.alt} loading="lazy" style={{ objectPosition: item.position }} />
+    <figcaption>
+      <span>{item.caption}</span>
+      <span>
+        <a href={item.href} target="_blank" rel="noreferrer">{item.credit}</a>
+        {item.license && <> · <a href={item.license.href} target="_blank" rel="noreferrer">{item.license.label}</a>{item.license.changes && ` · ${item.license.changes}`}</>}
+      </span>
+    </figcaption>
+  </figure>;
 }
 
 function CaseMedia({ item }: { item: CaseMediaItem }) {
@@ -215,6 +280,7 @@ function CaseMedia({ item }: { item: CaseMediaItem }) {
 
 export default function Home() {
   const node = useRef<HTMLDivElement>(null); const mapRef = useRef<MapInstance | null>(null); const popupRef = useRef<any>(null); const hoveredFeatureRef = useRef('');
+  const caseOperationIdRef = useRef<string | undefined>(undefined);
   const [ready, setReady] = useState(false); const [activeId, setActiveId] = useState('cover_island'); const [error, setError] = useState(''); const [legendPalette, setLegendPalette] = useState<LegendPalette>(emptyPalette); const [viewportWidth, setViewportWidth] = useState(0);
   const state = useMemo(() => chapterConfig.states.find((item) => item.id === activeId) as any, [activeId]);
   useEffect(() => {
@@ -242,14 +308,17 @@ export default function Home() {
       const closePopup = () => { popupRef.current?.remove(); hoveredFeatureRef.current = ''; map.getCanvas().style.cursor = ''; };
       const handlePointerMove = (event: any) => {
         const visible = layers.filter((id) => map.getLayer(id) && map.getLayoutProperty(id, 'visibility') !== 'none');
-        const feature = map.queryRenderedFeatures(event.point, { layers: visible })[0] as Feature | undefined;
+        if (!visible.length || !popupRef.current) { closePopup(); return; }
+        const features = map.queryRenderedFeatures(event.point, { layers: visible }) as Feature[];
+        const feature = features.find((item) => !item.layer?.id.endsWith('_glow')) ?? features[0];
         if (!feature) { closePopup(); return; }
         map.getCanvas().style.cursor = 'pointer';
         const properties = feature.properties ?? {};
-        const identity = clean(feature.id ?? properties.operation_id ?? properties.record_id ?? properties.current_exhibition_id ?? properties.site_id ?? properties.name ?? properties.cinema_name, 'feature');
+        const recordId = properties.operation_id ?? properties.space_id ?? properties.case_id ?? properties.site_id ?? feature.id;
+        const identity = `${feature.layer?.id ?? ''}:${clean(recordId, 'feature')}`;
         if (hoveredFeatureRef.current === identity) return;
         const coordinates = feature.geometry?.type === 'Point' && Array.isArray(feature.geometry.coordinates) ? feature.geometry.coordinates.slice(0, 2) : [event.lngLat.lng, event.lngLat.lat];
-        popupRef.current?.setLngLat(coordinates).setHTML(popupHtml(feature)).addTo(map);
+        popupRef.current.setLngLat(coordinates).setHTML(popupHtml(feature, caseOperationIdRef.current)).addTo(map);
         hoveredFeatureRef.current = identity;
       };
       map.on('mousemove', handlePointerMove);
@@ -259,6 +328,7 @@ export default function Home() {
     if (window.mapboxgl) initialise(); else { const timer = window.setInterval(() => { if (window.mapboxgl) { window.clearInterval(timer); initialise(); } }, 120); return () => window.clearInterval(timer); }
   }, []);
   useEffect(() => { if (ready && mapRef.current) { const map = mapRef.current; try {
+    caseOperationIdRef.current = state.popup_operation_id;
     popupRef.current?.remove(); hoveredFeatureRef.current = ''; map.getCanvas().style.cursor = '';
     const active = new Set(state.active_layers as string[]);
     layers.forEach((id) => {

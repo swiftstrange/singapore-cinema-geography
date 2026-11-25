@@ -250,21 +250,24 @@
       "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
       "transition": {"method": "easeTo", "duration_ms": 650},
       "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
-      "legend": "golden_mile_case", "map_label": "", "case_phase": "Golden Theatre"
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "Golden Theatre",
+      "popup_operation_id": "SGC-O-043"
     },
     {
       "id": "c5_the_projector", "chapter": "Chapter 5",
       "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
       "transition": {"method": "easeTo", "duration_ms": 650},
       "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
-      "legend": "golden_mile_case", "map_label": "", "case_phase": "The Projector"
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "The Projector",
+      "popup_operation_id": "SGC-O-015"
     },
     {
       "id": "c5_filmhouse", "chapter": "Chapter 5",
       "center": [103.864161, 1.301929], "zoom": 15.8, "bearing": -10, "pitch": 30,
       "transition": {"method": "easeTo", "duration_ms": 650},
       "active_layers": ["06_glow", "06_basic"], "filters": {"06_glow": "golden_mile", "06_basic": "golden_mile"},
-      "legend": "golden_mile_case", "map_label": "", "case_phase": "Filmhouse"
+      "legend": "golden_mile_case", "map_label": "", "case_phase": "Filmhouse",
+      "popup_operation_id": "SGC-O-044"
     },
     {
       "id": "ending_tonight", "chapter": "Ending",
