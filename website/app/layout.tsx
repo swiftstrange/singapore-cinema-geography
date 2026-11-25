@@ -3,7 +3,10 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Singapore Cinema Geography',
-  description: 'Working scrollytelling prototype for documented Singapore cinema geographies.'
+  description: 'Working scrollytelling prototype for documented Singapore cinema geographies.',
+  icons: {
+    icon: { url: '/media/favicon.png', type: 'image/png', sizes: '200x200' }
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
